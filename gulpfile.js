@@ -50,6 +50,13 @@ gulp.task('js', () => {
     return getJsPipes();
 });
 
+gulp.task('image', () => {
+    let src = gulp.src('images/**/*');
+    let destPath = 'public/images';
+        return src
+            .pipe(gulp.dest(destPath));
+});
+
 gulp.task('default', ['clean'], () => {
-    gulp.start(['css', 'js']);
+    gulp.start(['css', 'js', 'image']);
 });
