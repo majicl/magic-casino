@@ -1,5 +1,5 @@
 import React from 'react'
-import { Login, Logout } from './containers'
+import { Login, Logout, GameDetails, GameList } from './containers'
 import { Route, Switch } from 'react-router' // react-router v4
 import { ConnectedRouter } from 'connected-react-router'
 import { createBrowserHistory } from 'history'
@@ -10,7 +10,9 @@ export default () => (
     <ConnectedRouter history={history}>
         <div>
             <Switch>
-                <Route path="/" component={Login} />
+                <Route path="/game/g-:id/:title" component={GameDetails} />
+                <Route path="/" component={GameList} />
+                <Route path="/login" component={Login} />
                 <Route exact path="/logout" component={Logout} />
             </Switch>
         </div>

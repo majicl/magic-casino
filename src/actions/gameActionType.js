@@ -1,6 +1,6 @@
-import { createActionTypeMap } from '../utils';
-import defaultActionTypes from './defaultActionTypes';
+import { createActionTypeMap } from '../utils'
+import defaultActionTypes from './defaultActionTypes'
 
-export default createActionTypeMap("TODO", [
+export default createActionTypeMap("GAME", [
     ...defaultActionTypes
 ]);
