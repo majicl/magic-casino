@@ -1,6 +1,6 @@
-import { account } from './apiUrl';
-import $ from 'jquery';
-import delay from './delay';
+import { account } from './apiUrl'
+import $ from 'jquery'
+import delay from './delay'
 // It uses setTimeout to simulate the delay of an AJAX call.
 
 // All calls return promises.
@@ -11,8 +11,8 @@ class AccountApi {
                 $.post(account.login, user)
                 .then(resolve)
                 .catch(reject);
-            }, delay);
-        });
+            }, delay)
+        })
     }
 
     static logout() {
@@ -21,9 +21,9 @@ class AccountApi {
                 $.get(account.logout)
                 .then(resolve)
                 .catch(reject);
-            }, delay);
-        });
+            }, delay)
+        })
     }
 }
 
-export default AccountApi;
+export default AccountApi

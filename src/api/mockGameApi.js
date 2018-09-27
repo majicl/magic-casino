@@ -1,6 +1,6 @@
-import { game } from './apiUrl';
-import $ from 'jquery';
-import delay from './delay';
+import { game } from './apiUrl'
+import $ from 'jquery'
+import delay from './delay'
 // It uses setTimeout to simulate the delay of an AJAX call.
 
 // All calls return promises.
@@ -10,9 +10,9 @@ class GameApi {
             setTimeout(() => {
                 $.get(game.categories)
                 .then(resolve)
-                .catch(reject);
-            }, delay);
-        });
+                .catch(reject)
+            }, delay)
+        })
     }
 
     static getAllGames() {
@@ -20,11 +20,11 @@ class GameApi {
             setTimeout(() => {
                 $.get(game.games)
                 .then(resolve)
-                .catch(reject);
-            }, delay);
-        });
+                .catch(reject)
+            }, delay)
+        })
     }
 
 }
 
-export default GameApi;
+export default GameApi

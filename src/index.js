@@ -1,8 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './api/mock/mock-api';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import React from 'react'
+import { render } from 'react-dom'
+import { Provider } from 'react-redux'
+import Router from './router'
+import './api/mock/mock-api' // initiate mock api
+import configureStore from './store/configureStore'
+import registerServiceWorker from './registerServiceWorker'
+const store = configureStore()
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+render(
+    <Provider
+    store={store}
+    >
+        <Router />
+    </Provider>
+    , document.getElementById('root'))
+registerServiceWorker()
