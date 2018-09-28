@@ -1,15 +1,20 @@
 import { handleActions } from '../utils'
 import gameActions from '../actions/gameActionType'
 const { GETLIST } = gameActions
+
 const INITIAL_STATE = {
-    item: undefined,
-    items: [],
+    games: [],
     loading: false
 };
 
 const reducers = {
-    [GETLIST]: (state, action) => {
-        return { ...state, item: Object.assign({}, action.item), loading: false }
+    [GETLIST]: {
+        PENDING: (state, action) => {
+            return { ...state, loading: true }
+        },
+        FULFILLED: (state, action) => {
+            return { ...state, games: action.payload, loading: false }
+        }
     }
 }
 

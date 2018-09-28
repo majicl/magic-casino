@@ -1,0 +1,10 @@
+#game-launch {
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+
+    > iframe {
+        width: 100% !important;
+        flex: 1;
+    }
+}

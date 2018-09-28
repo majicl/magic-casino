@@ -1,0 +1,27 @@
+@import "../../../styles/variables";
+
+ul.game-item-container {
+    background-color: #fff;
+    list-style: none;
+
+    > li {
+      display: flex;
+
+      .imageBox {
+        flex-basis: 140px;
+      }
+      .descriptionBox {
+        flex: 1;
+
+        > ul {
+          list-style: none;
+          padding-inline-start: 20px;
+
+          li.action {
+            text-align: right;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+}
