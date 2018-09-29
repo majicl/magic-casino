@@ -21,14 +21,11 @@ class GameList extends Component {
             <section className="game-section">
                 <header>
                     <h2>
-                        Games
+                        Games {loading && <span className="loader"><strong><i>Loading...</i></strong></span>}
                     </h2>
                     <hr />
                 </header>
                 <ul className="game-item-container">
-
-                    {loading && <li className="loader"><strong><i>Loading...</i></strong></li>}
-
                     {
                         games.map(game =>
                             <GameItem

@@ -18,7 +18,8 @@ const reducers = {
             ...state, searchOption: {
                 ...state.searchOption,
                 keyword: action.keyword
-            }
+            },
+            searching: true
         }
     },
     [SEARCHBYCATEGORY]: (state, action) => {
@@ -39,7 +40,7 @@ const reducers = {
     },
     [SEARCH]: {
         PENDING: (state, action) => {
-            return { ...state, searching: true, loading: true }
+            return { ...state, loading: true }
         },
         FULFILLED: (state, action) => {
             return { ...state, games: action.payload, searching: false, loading: false }

@@ -10,10 +10,10 @@ const INITIAL_STATE = {
 const reducers = {
     [GETLIST]: {
         PENDING: (state, action) => {
-            return { ...state, loading: true }
+            return { ...state, catLoading: true }
         },
         FULFILLED: (state, action) => {
-            return { ...state, categories: action.payload, loading: false }
+            return { ...state, categories: action.payload, catLoading: false }
         }
     }
 }

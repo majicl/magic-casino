@@ -19,11 +19,11 @@ class CategoryList extends Component {
     }
 
     isActive = (categoryId) => {
-        return this.props.contains(categoryId) ? "active" : "";
+        return this.props.categoryIds.includes(categoryId) ? "active" : "";
     }
 
     render() {
-        const { categories, loading } = this.props
+        const { categories, catLoading } = this.props
         return (
             <section className="category-section">
                 <header>
@@ -48,7 +48,7 @@ class CategoryList extends Component {
                         )
                     }
 
-                    {loading && <li><i>Loading...</i></li>}
+                    {catLoading && <li><i>Loading...</i></li>}
                 </ul>
             </section>
         )
@@ -56,11 +56,12 @@ class CategoryList extends Component {
 }
 
 const mapStatetoProps = (state) => {
-    const { categories, loading, categoryIds } = state.category;
+    const { categories, catLoading } = state.category
+    const { categoryIds } = state.game.searchOption
     return {
         categories: [...categories],
         categoryIds: [...categoryIds],
-        loading: loading
+        catLoading: catLoading
     }
 }
 const mapDispatchToProps = (dispatch) => {
@@ -69,4 +70,4 @@ const mapDispatchToProps = (dispatch) => {
         ...bindActionCreators(gameAction, dispatch)
     }
 }
-export default connect(mapStatetoProps, mapDispatchToProps)(CategoryList);
+export default connect(mapStatetoProps, mapDispatchToProps)(CategoryList)
