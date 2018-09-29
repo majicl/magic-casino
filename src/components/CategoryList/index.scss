@@ -12,6 +12,20 @@
 
         > li {
             line-height: 30px;
+            a {
+                color: black;
+                padding-left: 6px;
+            }
         }
+        > li.active {
+            font-weight: bold;
+            background-color: #000;
+            border-radius: 3px;
+
+            > a {
+                color: white;
+            }
+        }
+    
     }
 }

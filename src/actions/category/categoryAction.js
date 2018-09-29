@@ -1,4 +1,4 @@
-import api from '../api/mockGameApi'
+import api from '../../api/mockGameApi'
 import categoryActions from './categoryActionType'
 const { GETLIST } = categoryActions
 

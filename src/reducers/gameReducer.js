@@ -1,13 +1,34 @@
 import { handleActions } from '../utils'
-import gameActions from '../actions/gameActionType'
-const { GETLIST, SEARCH } = gameActions
+import gameActions from '../actions/game/gameActionType'
+const { GETLIST, SEARCH, SEARCHBYKEYWORD, SEARCHBYCATEGORY } = gameActions
 
 const INITIAL_STATE = {
     games: [],
+    categories: [],
+    searchOption: {
+        categoryIds: [],
+        keyword: ''
+    },
     loading: false
 };
 
 const reducers = {
+    [SEARCHBYKEYWORD]: (state, action) => {
+        return {
+            ...state, searchOption: {
+                ...state.searchOption,
+                keyword: action.keyword
+            }
+        }
+    },
+    [SEARCHBYCATEGORY]: (state, action) => {
+        return {
+            ...state, searchOption: {
+                ...state.searchOption,
+                categoryIds: action.categoryIds
+            }
+        }
+    },
     [GETLIST]: {
         PENDING: (state, action) => {
             return { ...state, loading: true }

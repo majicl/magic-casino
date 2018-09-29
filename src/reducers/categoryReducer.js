@@ -1,5 +1,5 @@
 import { handleActions } from '../utils'
-import categoryAction from '../actions/categoryActionType'
+import categoryAction  from '../actions/category/categoryActionType'
 const { GETLIST } = categoryAction
 
 const INITIAL_STATE = {

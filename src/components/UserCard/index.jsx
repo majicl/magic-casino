@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
-import * as gameActions from '../../actions/gameAction'
 import ActionButton from '../ActionButton'
-
+//mport { accountAction } from '../../actions'
 import './index.scss'
 
 class UserCard extends Component {
@@ -34,7 +33,7 @@ class UserCard extends Component {
                     </aside>
                     <aside className="user-profile">
                         <div>
-                           <strong>{user.name}</strong>
+                            <strong>{user.name}</strong>
                         </div>
                         <div>
                             {user.event}
@@ -57,7 +56,9 @@ const mapStatetoProps = (state) => {
 }
 const mapDispatchToProps = (dispatch) => {
     return {
-        ...bindActionCreators(gameActions, dispatch)
+        //  ...bindActionCreators(gameActions, dispatch)
     }
 }
-export default connect(mapStatetoProps, mapDispatchToProps)(UserCard);
+//export default connect(mapStatetoProps, mapDispatchToProps)(UserCard);
+
+export default UserCard

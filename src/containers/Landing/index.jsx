@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
-import * as gameActions from '../../actions/gameAction'
+import { gameAction } from '../../actions'
 import GameList from '../../components/GameList'
 import CategoryList from '../../components/CategoryList'
 import Header from '../../components/Header'
@@ -45,7 +45,7 @@ const mapStatetoProps = (state) => {
 }
 const mapDispatchToProps = (dispatch) => {
     return {
-        ...bindActionCreators(gameActions, dispatch)
+        ...bindActionCreators(gameAction, dispatch)
     }
 }
 export default connect(mapStatetoProps, mapDispatchToProps)(Landing);

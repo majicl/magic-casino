@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
-import * as gameActions from '../../actions/gameAction'
+import { gameAction } from '../../actions'
 
 class SearchBox extends Component {
 
@@ -16,7 +16,7 @@ class SearchBox extends Component {
         clearTimeout(self.searchTimeoutId)
         self.searchTimeoutId = setTimeout(() => {
             if (self.keyword !== value) {
-                self.props.searchGames(value)
+                self.props.searchByKeyword(value)
                 self.keyword = value
             }
         }, 100)
@@ -55,7 +55,7 @@ const mapStatetoProps = (state) => {
 }
 const mapDispatchToProps = (dispatch) => {
     return {
-        ...bindActionCreators(gameActions, dispatch)
+        ...bindActionCreators(gameAction, dispatch)
     }
 }
 export default connect(mapStatetoProps, mapDispatchToProps)(SearchBox);

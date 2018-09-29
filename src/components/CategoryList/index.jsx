@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
-import * as categoryAction from '../../actions/categoryAction'
+import { categoryAction, gameAction } from '../../actions'
 import './index.scss'
 
 class CategoryList extends Component {
@@ -11,6 +11,15 @@ class CategoryList extends Component {
     }
     componentDidMount() {
         this.props.getGameCategories()
+    }
+
+    changeCategoryHandler = (e, categoryId) => {
+        e.preventDefault();
+        this.props.searchByCategories([categoryId])
+    }
+
+    isActive = (categoryId) => {
+        return this.props.contains(categoryId) ? "active" : "";
     }
 
     render() {
@@ -26,10 +35,15 @@ class CategoryList extends Component {
                 <ul>
                     {
                         categories.map(cat =>
-                            <li
-                              key={cat.id}
+                            <li className={this.isActive(cat.id)}
+                                key={cat.id}
                             >
-                            <strong>{cat.name}</strong> 
+                                <a
+                                    href="javscript:void(0)"
+                                    onClick={(e) => this.changeCategoryHandler(e, cat.id)}
+                                >
+                                    <strong>{cat.name}</strong>
+                                </a>
                             </li>
                         )
                     }
@@ -42,15 +56,17 @@ class CategoryList extends Component {
 }
 
 const mapStatetoProps = (state) => {
-    const { categories, loading } = state.category;
+    const { categories, loading, categoryIds } = state.category;
     return {
         categories: [...categories],
+        categoryIds: [...categoryIds],
         loading: loading
     }
 }
 const mapDispatchToProps = (dispatch) => {
     return {
-        ...bindActionCreators(categoryAction, dispatch)
+        ...bindActionCreators(categoryAction, dispatch),
+        ...bindActionCreators(gameAction, dispatch)
     }
 }
 export default connect(mapStatetoProps, mapDispatchToProps)(CategoryList);

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { GameItem } from '../GameItem'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
-import * as gameActions from '../../actions/gameAction'
+import { gameAction } from '../../actions'
 
 import './index.scss'
 
@@ -27,7 +27,7 @@ class GameList extends Component {
                 </header>
                 <ul className="game-item-container">
 
-                    {loading && <li><strong><i>Loading...</i></strong></li>}
+                    {loading && <li className="loader"><strong><i>Loading...</i></strong></li>}
 
                     {
                         games.map(game =>
@@ -53,7 +53,7 @@ const mapStatetoProps = (state) => {
 }
 const mapDispatchToProps = (dispatch) => {
     return {
-        ...bindActionCreators(gameActions, dispatch)
+        ...bindActionCreators(gameAction, dispatch)
     }
 }
 export default connect(mapStatetoProps, mapDispatchToProps)(GameList);

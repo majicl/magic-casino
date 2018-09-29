@@ -10,7 +10,7 @@ class AccountApi {
             setTimeout(() => {
                 $.post(account.login, user)
                 .then(resolve)
-                .catch(reject);
+                .catch(reject)
             }, delay)
         })
     }
@@ -20,7 +20,7 @@ class AccountApi {
             setTimeout(() => {
                 $.get(account.logout)
                 .then(resolve)
-                .catch(reject);
+                .catch(reject)
             }, delay)
         })
     }

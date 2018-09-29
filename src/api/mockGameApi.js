@@ -15,7 +15,7 @@ class GameApi {
         })
     }
 
-    static getAllGames(keyword) {
+    static getAllGames(keyword, categoryIds = []) {
         keyword = keyword && keyword.toLowerCase()
         return new Promise((resolve, reject) => {
             setTimeout(() => {
@@ -25,16 +25,35 @@ class GameApi {
                             return games;
                         } else {
                             return games.filter(game => {
-                                return game.name.toLowerCase().includes(keyword) 
-                               // || game.description.toLowerCase().includes(keyword)
+                                return game
+                                    .name
+                                    .toLowerCase()
+                                    .includes(keyword)
+                                    ||
+                                    game
+                                        .description
+                                        .toLowerCase()
+                                        .includes(keyword)
                             })
+                        }
+                    })
+                    .then(games => {
+                        if (categoryIds.length === 0) {
+                            return games
+                        } else {
+                            return games
+                                .filter(game => {
+                                    return categoryIds
+                                        .filter(cId => {
+                                            return game.categoryIds.includes(cId)
+                                        }).length > 0
+                                })
                         }
                     }).then(resolve)
                     .catch(reject)
             }, delay)
         })
     }
-
 }
 
 export default GameApi

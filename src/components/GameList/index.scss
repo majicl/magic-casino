@@ -11,6 +11,15 @@
 ul.game-item-container {
     list-style: none;
 
+    > li.loader {
+      padding: 10px;
+
+      > strong {
+        margin: 0 auto;
+        font-size: 20px;
+      }
+    }
+
     > li {
       display: flex;
 
