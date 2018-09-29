@@ -21,7 +21,7 @@ class GameList extends Component {
             <section className="game-section">
                 <header>
                     <h2>
-                        Games {loading && <span className="loader"><strong><i>Loading...</i></strong></span>}
+                        Games {!loading && <span>({games.length})</span>} {loading && <span className="loader"><strong><i>Loading...</i></strong></span>}
                     </h2>
                     <hr />
                 </header>
