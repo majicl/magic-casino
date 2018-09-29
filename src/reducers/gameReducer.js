@@ -1,6 +1,6 @@
 import { handleActions } from '../utils'
 import gameActions from '../actions/gameActionType'
-const { GETLIST } = gameActions
+const { GETLIST, SEARCH } = gameActions
 
 const INITIAL_STATE = {
     games: [],
@@ -14,6 +14,14 @@ const reducers = {
         },
         FULFILLED: (state, action) => {
             return { ...state, games: action.payload, loading: false }
+        }
+    },
+    [SEARCH]: {
+        PENDING: (state, action) => {
+            return { ...state, searching: true, loading: true }
+        },
+        FULFILLED: (state, action) => {
+            return { ...state, games: action.payload, searching: false, loading: false }
         }
     }
 }

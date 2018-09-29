@@ -1,7 +1,14 @@
-@import "../../../styles/variables";
+@import "../../styles/variables";
+
+.game-section {
+ padding-top: 1px;
+
+  header {
+    margin-left: 40px;
+  }
+}
 
 ul.game-item-container {
-    background-color: #fff;
     list-style: none;
 
     > li {

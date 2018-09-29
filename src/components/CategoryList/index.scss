@@ -1,0 +1,17 @@
+@import "../../styles/variables";
+.category-section {
+    padding-top: 1px; 
+
+    header {
+        margin-left: 40px;
+        margin-right: 20px;
+      }
+
+    > ul {
+        list-style: none;
+
+        > li {
+            line-height: 30px;
+        }
+    }
+}

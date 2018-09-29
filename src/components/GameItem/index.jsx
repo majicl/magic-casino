@@ -1,5 +1,5 @@
-import React from 'react';
-import PlayButton from '../PlayButton';
+import React from 'react'
+import ActionButton from '../ActionButton'
 
 export const GameItem = ({ name, description, code, icon }) => {
   return (
@@ -25,16 +25,15 @@ export const GameItem = ({ name, description, code, icon }) => {
           <li 
             className="action"
           >
-            <PlayButton
+            <ActionButton
               title={`let's play ${name}`}
               url={`/game/g-${code}/${name}`}
             >
               Play >
-            </PlayButton>
+            </ActionButton>
           </li>
         </ul>
       </div>
-
     </li>
   )
 }

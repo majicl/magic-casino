@@ -9,18 +9,28 @@ class GameApi {
         return new Promise((resolve, reject) => {
             setTimeout(() => {
                 $.get(game.categories)
-                .then(resolve)
-                .catch(reject)
+                    .then(resolve)
+                    .catch(reject)
             }, delay)
         })
     }
 
-    static getAllGames() {
+    static getAllGames(keyword) {
+        keyword = keyword && keyword.toLowerCase()
         return new Promise((resolve, reject) => {
             setTimeout(() => {
                 $.get(game.games)
-                .then(resolve)
-                .catch(reject)
+                    .then(games => {
+                        if (!keyword) {
+                            return games;
+                        } else {
+                            return games.filter(game => {
+                                return game.name.toLowerCase().includes(keyword) 
+                               // || game.description.toLowerCase().includes(keyword)
+                            })
+                        }
+                    }).then(resolve)
+                    .catch(reject)
             }, delay)
         })
     }

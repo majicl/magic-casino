@@ -1,7 +1,6 @@
 import { createActionTypeMap } from '../utils'
 import defaultActionTypes from './defaultActionTypes'
 
-export default createActionTypeMap("GAME", [
-    ...defaultActionTypes,
-    "SEARCH"
+export default createActionTypeMap("CATEGORY", [
+    ...defaultActionTypes
 ]);

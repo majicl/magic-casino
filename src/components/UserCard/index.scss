@@ -1,0 +1,14 @@
+.user-card {  
+    margin-left: 40px;
+    > header {
+        display: flex;
+
+        > .user-image > img {
+            border-radius: 100%;
+        }
+
+        > .user-profile {
+            margin-left: 10px;
+        }
+    }
+}
