@@ -1,39 +1,36 @@
 import React from 'react'
-import ActionButton from '../ActionButton'
+import { ActionButton } from '../../components'
 
 export const GameItem = ({ name, description, code, icon }) => {
   return (
-    <li>
-      <div className="imageBox">
+    <div className="game item">
+      <div className="ui small image">
         <img
           src={icon}
           alt={name}
         />
       </div>
-      <div className="descriptionBox">
-        <ul>
-          <li>
-              <h2>
-                {name}
-              </h2>
-            </li>
-          <li>
-            <p>
-              {description}
-            </p>
-            </li>
-          <li 
-            className="action"
+      <div className="content">
+        <div className="header">
+          <b className="name">
+            {name}
+          </b>
+        </div>
+        <div className="description">
+          {description}
+        </div>
+        <div className="extra">
+          <ActionButton
+            title={`let's play ${name}`}
+            url={`/game/g-${code}/${name}`}
           >
-            <ActionButton
-              title={`let's play ${name}`}
-              url={`/game/g-${code}/${name}`}
-            >
-              Play >
-            </ActionButton>
-          </li>
-        </ul>
+            <div className="play ui right floated secondary button inverted">
+              Play
+              <i className="right chevron icon"></i>
+            </div>
+          </ActionButton>
+        </div>
       </div>
-    </li>
+    </div>
   )
 }

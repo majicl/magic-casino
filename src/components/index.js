@@ -1,5 +1,7 @@
-export * from './GameItem';
-export * from './PlayButton';
-export * from './LogoutButton';
-export * from './SearchBox';
-export * from './UserCard';
+export * from './GameItem'
+export * from './SearchBox'
+export * from './UserCard'
+export { default as Header } from './Header'
+export * from './GameList'
+export { default as ActionButton } from './common/ActionButton'
+export { default as TextInput } from './common/TextInput'

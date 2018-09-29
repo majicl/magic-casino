@@ -9,8 +9,13 @@ class AccountApi {
         return new Promise((resolve, reject) => {
             setTimeout(() => {
                 $.post(account.login, user)
-                .then(resolve)
-                .catch(reject)
+                    .then((response) => {
+                        if (response.status === "fail") {
+                            reject(response.error)
+                        } else {
+                            resolve(response)
+                        }
+                    }).catch(reject)
             }, delay)
         })
     }
@@ -19,8 +24,8 @@ class AccountApi {
         return new Promise((resolve, reject) => {
             setTimeout(() => {
                 $.get(account.logout)
-                .then(resolve)
-                .catch(reject)
+                    .then(resolve)
+                    .catch(reject)
             }, delay)
         })
     }

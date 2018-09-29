@@ -11,8 +11,8 @@ export default () => (
         <div>
             <Switch>
                 <Route path="/game/g-:id/:title" component={GameDetails} />
-                <Route path="/" component={Landing} />
-                <Route path="/login" component={Login} />
+                <Route path="/" exact component={Landing} />
+                <Route path="/login" exact component={Login} />
                 <Route exact path="/logout" component={Logout} />
             </Switch>
         </div>

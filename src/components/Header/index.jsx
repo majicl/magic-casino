@@ -1,18 +1,12 @@
 import React, { Component } from 'react'
-import styled from 'styled-components';
-
-const SHeader = styled.header`
-  background-image: url(/images/logo.svg);
-  height: 200px;
-  background-repeat: no-repeat;
-  background-position: center center;
-`;
-
 class Header extends Component {
     render() {
         return (
-            <SHeader>   
-            </SHeader>
+            <div className="ui one column center aligned page grid">
+                <div className="column twelve wide">
+                    <img src="/images/logo.svg" alt="logo" />
+                </div>
+            </div>
         )
     }
 }

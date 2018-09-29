@@ -18,14 +18,11 @@ class GameList extends Component {
     render() {
         const { games, loading } = this.props;
         return (
-            <section className="game-section">
-                <header>
-                    <h2>
-                        Games {!loading && <span>({games.length})</span>} {loading && <span className="loader"><strong><i>Loading...</i></strong></span>}
-                    </h2>
-                    <hr />
-                </header>
-                <ul className="game-item-container">
+            <React.Fragment>
+                <h3 className="ui dividing header">
+                    Games {!loading && <span>({games.length})</span>} {loading && <span className="loader"><strong><i>Loading...</i></strong></span>}
+                </h3>
+                <div className="ui relaxed divided game items links">
                     {
                         games.map(game =>
                             <GameItem
@@ -34,9 +31,9 @@ class GameList extends Component {
                             />)
                     }
 
-                    {(!loading && games.length === 0) && <li><i>There Is No Game To Play</i></li>}
-                </ul>
-            </section>
+                    {(!loading && games.length === 0) && <div><i>There Is No Game To Play</i></div>}
+                </div>
+            </React.Fragment>
         )
     }
 }

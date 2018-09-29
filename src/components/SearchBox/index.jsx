@@ -29,20 +29,14 @@ class SearchBox extends Component {
 
         const { searching } = this.props;
         return (
-            <React.Fragment>
-                <div className={"ui search " + this.isLoading(searching)}>
-                    <div className="ui icon input">
-                        <input
-                            className="prompt"
-                            type="text"
-                            placeholder={placeHolder}
-                            onKeyUp={this.searchGameHandler}
-                        />
-                        <i className="search icon"></i>
-                    </div>
-                    <div className="results"></div>
-                </div>
-            </React.Fragment>
+            <div className={"search ui small icon input " + this.isLoading(searching)}>
+                <input
+                    type="text"
+                    placeholder={placeHolder}
+                    onKeyUp={this.searchGameHandler}
+                />
+                <i className="search icon"></i>
+            </div>
         )
     }
 }

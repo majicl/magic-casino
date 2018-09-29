@@ -25,32 +25,25 @@ class CategoryList extends Component {
     render() {
         const { categories, catLoading } = this.props
         return (
-            <section className="category-section">
-                <header>
-                    <h2>
-                        Categories
-                    </h2>
-                    <hr />
-                </header>
-                <ul>
+            <React.Fragment>
+                <h3 className="ui dividing header">Categories</h3>
+                <div className="ui selection animated list category items">
                     {
                         categories.map(cat =>
-                            <li className={this.isActive(cat.id)}
-                                key={cat.id}
-                            >
-                                <a
-                                    href="javscript:void(0)"
+                            <div className={"category item " + this.isActive(cat.id)} key={cat.id}>
+                                <div className="content"
                                     onClick={(e) => this.changeCategoryHandler(e, cat.id)}
                                 >
-                                    <strong>{cat.name}</strong>
-                                </a>
-                            </li>
+                                    <div className="header">{cat.name}</div>
+                                </div>
+                            </div>
                         )
                     }
 
-                    {catLoading && <li><i>Loading...</i></li>}
-                </ul>
-            </section>
+                    {catLoading && <div><i>Loading...</i></div>}
+
+                </div>
+            </React.Fragment>
         )
     }
 }

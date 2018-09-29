@@ -1,7 +1,4 @@
 import React, { Component } from 'react'
-import { bindActionCreators } from 'redux'
-import { connect } from 'react-redux'
-import { gameAction } from '../../actions'
 import GameList from '../../components/GameList'
 import CategoryList from '../../components/CategoryList'
 import Header from '../../components/Header'
@@ -15,37 +12,31 @@ class Landing extends Component {
         return (
             <React.Fragment>
                 <Header />
-                <main className="main-section">
-                    <div className="ui grid">
-                        <div className="twelve wide column">
-                            <UserCard />
+                <div className="main container">
+                    <main className="casino">
+                        <div className="ui grid centered">
+                            <div className="twelve wide column">
+                                <UserCard />
+                            </div>
+                            <div className="four wide column">
+                                <SearchBox
+                                    placeHolder="Game Search"
+                                />
+                            </div>
                         </div>
-                        <div className="four wide column">
-                            <SearchBox
-                                placeHolder="Game Search"
-                            />
+                        <div className="ui grid">
+                            <div className="twelve wide column">
+                                <GameList />
+                            </div>
+                            <div className="four wide column">
+                                <CategoryList />
+                            </div>
                         </div>
-                        <div className="twelve wide column">
-                            <GameList />
-                        </div>
-                        <div className="four wide column">
-                            <CategoryList />
-                        </div>
-                    </div>
-                </main>
+                    </main>
+                </div>
             </React.Fragment>
         )
     }
 }
 
-const mapStatetoProps = (state) => {
-    return {
-
-    }
-}
-const mapDispatchToProps = (dispatch) => {
-    return {
-        ...bindActionCreators(gameAction, dispatch)
-    }
-}
-export default connect(mapStatetoProps, mapDispatchToProps)(Landing);
+export default Landing

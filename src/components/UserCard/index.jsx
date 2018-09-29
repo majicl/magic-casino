@@ -1,64 +1,61 @@
 import React, { Component } from 'react'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
-import ActionButton from '../ActionButton'
-//mport { accountAction } from '../../actions'
+import { ActionButton } from '../../components'
+import { accountAction } from '../../actions'
 import './index.scss'
 
 class UserCard extends Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            user: {
-                name: 'Eric Beard',
-                avatar: 'images/avatar/eric.jpg',
-                event: 'I saw you won 500 SEK last time!',
-                password: 'dad'
-            }
-        }
-    }
-    componentDidMount() {
-        //this.props.getGames();
 
+    state = {
+        user: null
     }
 
     render() {
-        const { user } = this.state;
+        const { user } = this.props;
         return (
-            <section className="user-card">
-                {!user && <ActionButton url="/login">Login</ActionButton>}
-                <header>
-                    <aside className="user-image">
-                        <img src={user.avatar} alt={user.name} />
-                    </aside>
-                    <aside className="user-profile">
-                        <div>
-                            <strong>{user.name}</strong>
-                        </div>
-                        <div>
-                            {user.event}
-                        </div>
-                    </aside>
-                </header>
-                <footer>
-                    <ActionButton url="/logout"> &#x3C; Log Out </ActionButton>
-                </footer>
-            </section>
+            <React.Fragment>
+                {!user && <ActionButton url="/login">
+                    <div className="logout ui left floated secondary button inverted">
+                        Log In <i className="right chevron icon"></i>
+                    </div>
+                </ActionButton>}
+                {
+                    user &&
+                    <React.Fragment>
+                        <header className="ui list">
+                            <div className="player item">
+                                <img className="ui avatar image" src={user.avatar} alt="avatar" />
+                                <div className="content">
+                                    <div className="header"><b className="name">{user.name}</b></div>
+                                    <div className="description event">{user.event}</div>
+                                </div>
+                            </div>
+                        </header>
+                        <footer>
+                            <ActionButton url="/logout">
+                                <div className="logout ui left floated secondary button inverted">
+                                    <i className="left chevron icon"></i>Log Out
+				            </div>
+                            </ActionButton>
+                        </footer>
+                    </React.Fragment>
+                }
+            </React.Fragment>
         )
     }
 }
 
 const mapStatetoProps = (state) => {
-    //const { user } = state.account;
+    const { user } = state.account
     return {
-        //  user: {...user}
+        user
     }
 }
 const mapDispatchToProps = (dispatch) => {
     return {
-        //  ...bindActionCreators(gameActions, dispatch)
+        ...bindActionCreators(accountAction, dispatch)
     }
 }
-//export default connect(mapStatetoProps, mapDispatchToProps)(UserCard);
+export default connect(mapStatetoProps, mapDispatchToProps)(UserCard);
 
-export default UserCard

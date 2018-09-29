@@ -1,13 +1,12 @@
 import React, { Component } from 'react'
-import './index.scss'
+import { ActionButton } from '../../../components'
 require('../../../api/comeon/comeon.game-1.0.min')
 
 export class GameDetails extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      gameCode: props.match.params.id,
-      height: window.innerHeight
+      gameCode: props.match.params.id
     }
   }
 
@@ -17,7 +16,25 @@ export class GameDetails extends Component {
 
   render() {
     return (
-      <div id="game-launch" style={{height: this.state.height}}>
+      <div className="ingame">
+        <div className="ui grid centered">
+          <div className="three wide column">
+
+            <ActionButton
+              url="/"
+            >
+              <div className="ui right floated secondary button inverted">
+                <i className="left chevron icon"></i>Back
+            </div>
+            </ActionButton>
+
+          </div>
+          <div className="ten wide column">
+            <div id="game-launch">
+            </div>
+          </div>
+          <div className="three wide column"></div>
+        </div>
       </div>
     )
   }
