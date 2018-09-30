@@ -36,6 +36,13 @@ class Login extends Component {
     })
   }
 
+  formIsInvalid = () => {
+    return !this.state.user
+      || !this.state.user.username
+      || !this.state.user.password
+  }
+
+
   render() {
     const { error, loginLoading } = this.props
     return (
@@ -52,6 +59,7 @@ class Login extends Component {
                     placeholder="Username"
                     iconClass="user icon"
                     name="username"
+                    required={true}
                     onChange={this.onTextChange}
                   />
 
@@ -60,13 +68,17 @@ class Login extends Component {
                     placeholder="Password"
                     iconClass="lock icon"
                     name="password"
+                    required={true}
                     onChange={this.onTextChange}
                   />
 
                   <div className="field">
                     <div className="ui icon input">
-                      <input type="submit" value="Login" />
-                      <i className="right chevron icon"></i>
+                      <input
+                        type="submit"
+                        disabled={this.formIsInvalid()}
+                        value="Login" />
+                      <i className={"right chevron icon " + (loginLoading ? "loading" : "")}></i>
                     </div>
                   </div>
 

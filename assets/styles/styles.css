@@ -1,6 +1,7 @@
 body {
     background-color: #444;
 }
+
 .main.container {
     background-color: #FFFFFF;
     margin: 0 auto;
@@ -14,4 +15,14 @@ body {
 
 .search {
     float: right;
+}
+
+input[type="submit"]:disabled {
+    background-color: #444;
+    color: white;
+    cursor: not-allowed;
+}
+
+input:required:invalid + i {
+    color: #C00000;
 }

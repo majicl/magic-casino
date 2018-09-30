@@ -16,6 +16,12 @@ class UserCard extends Component {
         this.props.logout(this.props.user)
     }
 
+    componentWillReceiveProps(props) {
+        if (!props.user) {
+            props.history.push("/")
+        }
+    }
+
     navToLoginHandler = (e) => {
         e.preventDefault()
         this.props.history.push("/")
