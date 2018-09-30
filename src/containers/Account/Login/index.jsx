@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import { Header } from '../../../components'
-import { TextInput } from '../../../components'
+import { Header, TextInput } from '../../../components'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import { accountAction } from '../../../actions'
@@ -9,7 +8,7 @@ class Login extends Component {
 
   componentWillReceiveProps(props) {
     if (props.user && props.user.name) {
-      props.history.push("/")
+      props.history.push("/games")
     }
   }
 
@@ -106,4 +105,4 @@ const mapDispatchToProps = (dispatch) => {
     ...bindActionCreators(accountAction, dispatch)
   }
 }
-export default connect(mapStatetoProps, mapDispatchToProps)(Login);
+export default connect(mapStatetoProps, mapDispatchToProps)(Login)

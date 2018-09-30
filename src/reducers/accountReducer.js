@@ -24,7 +24,7 @@ const reducers = {
             return { ...state, loginLoading: true }
         },
         FULFILLED: (state, action) => {
-            return { ...state, user: action.payload, loginLoading: false }
+            return { ...state, user: undefined, loginLoading: false }
         },
         REJECTED: (state, action) => {
             return { ...state, error: action.payload, loginLoading: false }

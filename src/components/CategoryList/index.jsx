@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import { categoryAction, gameAction } from '../../actions'
-import './index.scss'
 
 class CategoryList extends Component {
 
@@ -19,7 +18,7 @@ class CategoryList extends Component {
     }
 
     isActive = (categoryId) => {
-        return this.props.categoryIds.includes(categoryId) ? "active" : "";
+        return this.props.categoryIds.includes(categoryId) ? "active" : ""
     }
 
     render() {

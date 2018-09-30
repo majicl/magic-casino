@@ -4,14 +4,19 @@ require('../../../api/comeon/comeon.game-1.0.min')
 
 export class GameDetails extends Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
       gameCode: props.match.params.id
     }
   }
 
   componentDidMount() {
-    window.comeon.game.launch(this.state.gameCode);
+    window.comeon.game.launch(this.state.gameCode)
+  }
+
+  onBackHander = (e) => {
+    e.preventDefault()
+    this.props.history.push("/games")
   }
 
   render() {
@@ -21,10 +26,11 @@ export class GameDetails extends Component {
           <div className="three wide column">
 
             <ActionButton
-              url="/"
+              url="/games"
+              onClick={this.onBackHander}
             >
               <div className="ui right floated secondary button inverted">
-                <i className="left chevron icon"></i>Back
+                <i className="left chevron icon"></i> Back
             </div>
             </ActionButton>
 

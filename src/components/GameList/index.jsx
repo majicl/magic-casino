@@ -4,8 +4,6 @@ import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import { gameAction } from '../../actions'
 
-import './index.scss'
-
 class GameList extends Component {
 
     state = {
@@ -26,6 +24,7 @@ class GameList extends Component {
                     {
                         games.map(game =>
                             <GameItem
+                                history={this.props.history}
                                 {...game}
                                 key={game.code}
                             />)

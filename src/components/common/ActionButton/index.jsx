@@ -2,11 +2,12 @@ import React, { Component } from 'react'
 
 class ActionButton extends Component {
     render() {
-        const { children, url, title } = this.props;
+        const { children, url, title, onClick } = this.props
         return (
             <a 
               href={url}
               title={title}
+              onClick={onClick}
             >
               {children}
             </a>
@@ -14,4 +15,4 @@ class ActionButton extends Component {
     }
 }
 
-export default ActionButton;
+export default ActionButton

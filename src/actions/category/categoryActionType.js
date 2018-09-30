@@ -3,4 +3,4 @@ import defaultActionTypes from '../defaultActionTypes'
 
 export default createActionTypeMap("CATEGORY", [
     ...defaultActionTypes
-]);
+])

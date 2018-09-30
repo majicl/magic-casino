@@ -1,5 +1,5 @@
 import React from 'react'
-import { Login, Logout, GameDetails, Landing } from './containers'
+import { Login, GameDetails, Landing } from './containers'
 import { Route, Switch } from 'react-router' // react-router v4
 import { ConnectedRouter } from 'connected-react-router'
 import { createBrowserHistory } from 'history'
@@ -11,9 +11,8 @@ export default () => (
         <div>
             <Switch>
                 <Route path="/game/g-:id/:title" component={GameDetails} />
-                <Route path="/" exact component={Landing} />
-                <Route path="/login" exact component={Login} />
-                <Route exact path="/logout" component={Logout} />
+                <Route path="/games" exact component={Landing} />
+                <Route path="/" exact component={Login} />
             </Switch>
         </div>
     </ConnectedRouter>

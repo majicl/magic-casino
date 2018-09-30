@@ -3,23 +3,39 @@ import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import { ActionButton } from '../../components'
 import { accountAction } from '../../actions'
-import './index.scss'
+import styled from 'styled-components'
+
+const LoaderContainer = styled.div`
+    line-height: 36px
+`
 
 class UserCard extends Component {
 
-    state = {
-        user: null
+    onLogoutHandler = (e) => {
+        e.preventDefault()
+        this.props.logout(this.props.user)
+    }
+
+    navToLoginHandler = (e) => {
+        e.preventDefault()
+        this.props.history.push("/")
     }
 
     render() {
-        const { user } = this.props;
+        const { user, loginLoading } = this.props
         return (
             <React.Fragment>
-                {!user && <ActionButton url="/login">
-                    <div className="logout ui left floated secondary button inverted">
-                        Log In <i className="right chevron icon"></i>
-                    </div>
-                </ActionButton>}
+                {
+                    !user &&
+                    <ActionButton
+                        onClick={this.navToLoginHandler}
+                        url="/"
+                    >
+                        <div className="logout ui left floated secondary button inverted">
+                            Log In <i className="right chevron icon"></i>
+                        </div>
+                    </ActionButton>
+                }
                 {
                     user &&
                     <React.Fragment>
@@ -33,11 +49,18 @@ class UserCard extends Component {
                             </div>
                         </header>
                         <footer>
-                            <ActionButton url="/logout">
+                            <ActionButton
+                                url="/logout"
+                                onClick={this.onLogoutHandler}
+                            >
                                 <div className="logout ui left floated secondary button inverted">
                                     <i className="left chevron icon"></i>Log Out
-				            </div>
+				                </div>
                             </ActionButton>
+                            {
+                                loginLoading &&
+                                <LoaderContainer><i>Logging out...</i></LoaderContainer>
+                            }
                         </footer>
                     </React.Fragment>
                 }
@@ -47,9 +70,10 @@ class UserCard extends Component {
 }
 
 const mapStatetoProps = (state) => {
-    const { user } = state.account
+    const { user, loginLoading } = state.account
     return {
-        user
+        user,
+        loginLoading
     }
 }
 const mapDispatchToProps = (dispatch) => {
@@ -57,5 +81,5 @@ const mapDispatchToProps = (dispatch) => {
         ...bindActionCreators(accountAction, dispatch)
     }
 }
-export default connect(mapStatetoProps, mapDispatchToProps)(UserCard);
+export default connect(mapStatetoProps, mapDispatchToProps)(UserCard)
 

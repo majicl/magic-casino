@@ -20,5 +20,5 @@ export default function config(initialState) {
                 routerMiddleware(history)
             )
         )
-    );
-};
+    )
+}

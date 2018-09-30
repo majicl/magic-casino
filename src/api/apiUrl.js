@@ -1,4 +1,4 @@
-export const apiBaseUrl = '/';
+export const apiBaseUrl = '/'
 
 export const game = {
     categories: apiBaseUrl + 'categories',

@@ -23,11 +23,12 @@ class SearchBox extends Component {
     }
 
     render() {
+        
         const {
-            placeHolder
-        } = this.props;
+            placeHolder,
+            searching
+        } = this.props
 
-        const { searching } = this.props;
         return (
             <div className={"search ui small icon input " + this.isLoading(searching)}>
                 <input
@@ -42,7 +43,7 @@ class SearchBox extends Component {
 }
 
 const mapStatetoProps = (state) => {
-    const { searching } = state.game;
+    const { searching } = state.game
     return {
         searching
     }
@@ -52,4 +53,4 @@ const mapDispatchToProps = (dispatch) => {
         ...bindActionCreators(gameAction, dispatch)
     }
 }
-export default connect(mapStatetoProps, mapDispatchToProps)(SearchBox);
+export default connect(mapStatetoProps, mapDispatchToProps)(SearchBox)

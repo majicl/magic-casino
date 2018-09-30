@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import GameList from '../../components/GameList'
-import CategoryList from '../../components/CategoryList'
-import Header from '../../components/Header'
-import UserCard from '../../components/UserCard'
-import SearchBox from '../../components/SearchBox'
-
-import './index.scss'
+import {
+    GameList,
+    CategoryList,
+    Header,
+    UserCard,
+    SearchBox
+} from '../../components'
 
 class Landing extends Component {
     render() {
@@ -16,7 +16,7 @@ class Landing extends Component {
                     <main className="casino">
                         <div className="ui grid centered">
                             <div className="twelve wide column">
-                                <UserCard />
+                                <UserCard history={this.props.history} />
                             </div>
                             <div className="four wide column">
                                 <SearchBox
@@ -26,7 +26,7 @@ class Landing extends Component {
                         </div>
                         <div className="ui grid">
                             <div className="twelve wide column">
-                                <GameList />
+                                <GameList history={this.props.history} />
                             </div>
                             <div className="four wide column">
                                 <CategoryList />

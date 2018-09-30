@@ -1,7 +1,11 @@
 import React from 'react'
 import { ActionButton } from '../../components'
 
-export const GameItem = ({ name, description, code, icon }) => {
+export const GameItem = ({ name, description, code, icon, history }) => {
+  const letsPlay = (e) => {
+    e.preventDefault()
+    history.push(`/game/g-${code}/${name}`)
+  }
   return (
     <div className="game item">
       <div className="ui small image">
@@ -23,6 +27,7 @@ export const GameItem = ({ name, description, code, icon }) => {
           <ActionButton
             title={`let's play ${name}`}
             url={`/game/g-${code}/${name}`}
+            onClick={letsPlay}
           >
             <div className="play ui right floated secondary button inverted">
               Play

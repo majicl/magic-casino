@@ -6,4 +6,4 @@ export default createActionTypeMap("GAME", [
     "SEARCH",
     "SEARCHBYKEYWORD",
     "SEARCHBYCATEGORY"
-]);
+])

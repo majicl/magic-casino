@@ -5,4 +5,4 @@ export default createActionTypeMap("ACCOUNT", [
     ...defaultActionTypes,
     "LOGIN",
     "LOGOUT"
-]);
+])

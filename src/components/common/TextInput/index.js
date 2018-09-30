@@ -17,4 +17,4 @@ const TextInput = ({ type, onChange, value, error, placeholder, iconClass, name}
   )
 }
 
-export default TextInput;
+export default TextInput

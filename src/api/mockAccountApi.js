@@ -13,6 +13,8 @@ class AccountApi {
                         if (response.status === "fail") {
                             reject(response.error)
                         } else {
+                            delete response.player.password
+                            response.player.username = user.username
                             resolve(response)
                         }
                     }).catch(reject)
@@ -20,12 +22,17 @@ class AccountApi {
         })
     }
 
-    static logout() {
+    static logout(user) {
         return new Promise((resolve, reject) => {
             setTimeout(() => {
-                $.get(account.logout)
-                    .then(resolve)
-                    .catch(reject)
+                $.post(account.logout, user)
+                    .then((response) => {
+                        if (response.status === "fail") {
+                            reject(response.error)
+                        } else {
+                            resolve(response)
+                        }
+                    }).catch(reject)
             }, delay)
         })
     }
