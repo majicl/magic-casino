@@ -20,13 +20,15 @@ class SearchBox extends Component {
                 self.keyword = value
             }
         }, 100)
+
     }
 
     render() {
-        
+
         const {
             placeHolder,
-            searching
+            searching,
+            keyword
         } = this.props
 
         return (
@@ -34,7 +36,8 @@ class SearchBox extends Component {
                 <input
                     type="text"
                     placeholder={placeHolder}
-                    onKeyUp={this.searchGameHandler}
+                    onChange={this.searchGameHandler}
+                    value={keyword}
                 />
                 <i className="search icon"></i>
             </div>
@@ -43,9 +46,10 @@ class SearchBox extends Component {
 }
 
 const mapStatetoProps = (state) => {
-    const { searching } = state.game
+    const { searching, searchOption } = state.game
     return {
-        searching
+        searching,
+        keyword: searchOption.keyword
     }
 }
 const mapDispatchToProps = (dispatch) => {

@@ -5,7 +5,7 @@ const { LOGIN, LOGOUT } = accountAction
 const INITIAL_STATE = {
     user: undefined,
     loginLoading: false
-};
+}
 
 const reducers = {
     [LOGIN]: {

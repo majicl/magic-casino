@@ -5,7 +5,7 @@ const { GETLIST } = categoryAction
 const INITIAL_STATE = {
     categories: [],
     loading: false
-};
+}
 
 const reducers = {
     [GETLIST]: {

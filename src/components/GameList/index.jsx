@@ -10,11 +10,20 @@ class GameList extends Component {
         games: []
     }
     componentDidMount() {
-        this.props.getGames();
+        const { keyword, categoryIds } = this.props.searchOption
+        this.props.searchGames(keyword, categoryIds)
+    }
+
+    shouldComponentUpdate(props) {
+        if (this.props.games !== props.games ||
+            this.props.loading !== props.loading) {
+            return true
+        }
+        return false
     }
 
     render() {
-        const { games, loading } = this.props;
+        const { games, loading } = this.props
         return (
             <React.Fragment>
                 <h3 className="ui dividing header">
@@ -38,10 +47,11 @@ class GameList extends Component {
 }
 
 const mapStatetoProps = (state) => {
-    const { games, loading } = state.game;
+    const { games, loading, searchOption } = state.game
     return {
-        games: [...games],
-        loading: loading
+        games,
+        loading,
+        searchOption
     }
 }
 const mapDispatchToProps = (dispatch) => {
@@ -49,4 +59,4 @@ const mapDispatchToProps = (dispatch) => {
         ...bindActionCreators(gameAction, dispatch)
     }
 }
-export default connect(mapStatetoProps, mapDispatchToProps)(GameList);
+export default connect(mapStatetoProps, mapDispatchToProps)(GameList)

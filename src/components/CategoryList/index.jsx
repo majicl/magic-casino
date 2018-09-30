@@ -12,8 +12,16 @@ class CategoryList extends Component {
         this.props.getGameCategories()
     }
 
+    shouldComponentUpdate(props) {
+        if (this.props.categories !== props.categories ||
+            this.props.catLoading !== props.catLoading) {
+            return true
+        }
+        return false
+    }
+
     changeCategoryHandler = (e, categoryId) => {
-        e.preventDefault();
+        e.preventDefault()
         this.props.searchByCategories([categoryId])
     }
 

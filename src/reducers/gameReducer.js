@@ -10,7 +10,7 @@ const INITIAL_STATE = {
         keyword: ''
     },
     loading: false
-};
+}
 
 const reducers = {
     [SEARCHBYKEYWORD]: (state, action) => {

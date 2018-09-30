@@ -22,7 +22,7 @@ class GameApi {
                 $.get(game.games)
                     .then(games => {
                         if (!keyword) {
-                            return games;
+                            return games
                         } else {
                             return games.filter(game => {
                                 return game
