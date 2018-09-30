@@ -67,6 +67,7 @@
   "scripts": {
     "start": "gulp && node scripts/start.js",
     "build": "node scripts/build.js",
+    "doc": "esdoc -c esdoc.json",
     "test": "node scripts/test.js --env=jsdom"
   },
   "jest": {
@@ -110,5 +111,10 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "devDependencies": {
+    "esdoc": "^1.1.0",
+    "esdoc-jsx-plugin": "^1.0.0",
+    "esdoc-standard-plugin": "^1.0.0"
   }
 }

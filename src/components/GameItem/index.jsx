@@ -1,7 +1,12 @@
 import React from 'react'
 import { ActionButton } from '../../components'
 
-export const GameItem = ({ name, description, code, icon, history }) => {
+export /**
+ * a stateless compoent to handle game item in list
+ * @param {any} { name, description, code, icon, history } 
+ * @returns 
+ */
+const GameItem = ({ name, description, code, icon, history }) => {
   const letsPlay = (e) => {
     e.preventDefault()
     history.push(`/game/g-${code}/${name}`)

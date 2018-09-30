@@ -2,6 +2,12 @@ import React, { Component } from 'react'
 import { ActionButton } from '../../../components'
 require('../../../api/comeon/comeon.game-1.0.min')
 
+/**
+ * A container component to wrap game objects
+ * @export
+ * @class GameDetails
+ * @extends {Component}
+ */
 export class GameDetails extends Component {
   constructor(props) {
     super(props)
@@ -10,10 +16,23 @@ export class GameDetails extends Component {
     }
   }
 
+
+  /**
+   * 
+   * using componentDidMount to start the navigated game
+   * @memberOf GameDetails
+   */
   componentDidMount() {
     window.comeon.game.launch(this.state.gameCode)
   }
 
+
+  /**
+   * 
+   * 
+   * back to game list
+   * @memberOf GameDetails
+   */
   onBackHander = (e) => {
     e.preventDefault()
     this.props.history.push("/games")

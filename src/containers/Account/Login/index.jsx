@@ -4,14 +4,22 @@ import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import { accountAction } from '../../../actions'
 
+/**
+ * A continer for the login controls
+ * @class Login
+ * @extends {Component}
+ */
 class Login extends Component {
-
   componentWillReceiveProps(props) {
     if (props.user && props.user.name) {
       props.history.push("/games")
     }
   }
 
+  /**
+   * state of Login container component
+   * @memberOf Login
+   */
   state = {
     user: {
       username: '',
@@ -21,11 +29,19 @@ class Login extends Component {
     loginLoading: false
   }
 
+  /**
+   * The first action after form submitting
+   * @memberOf Login
+   */
   onSubmitHandler = (e) => {
     e.preventDefault()
     this.props.login(this.state.user)
   }
 
+  /**
+   * handler to update state based on input changes
+   * @memberOf Login
+   */
   onTextChange = (e) => {
     this.setState({
       ...this.state,
@@ -36,6 +52,11 @@ class Login extends Component {
     })
   }
 
+
+  /**
+   * handle as a form validation
+   * @memberOf Login
+   */
   formIsInvalid = () => {
     return !this.state.user
       || !this.state.user.username
@@ -104,6 +125,12 @@ class Login extends Component {
   }
 }
 
+/**
+ * mapStatetoProps for REDUX connection
+ * 
+ * @param {any} state 
+ * @returns 
+ */
 const mapStatetoProps = (state) => {
   const { user, error, loginLoading } = state.account
   return {
@@ -112,6 +139,12 @@ const mapStatetoProps = (state) => {
     loginLoading
   }
 }
+/**
+ * mapDispatchToProps for REDUX connection
+ * 
+ * @param {any} dispatch 
+ * @returns 
+ */
 const mapDispatchToProps = (dispatch) => {
   return {
     ...bindActionCreators(accountAction, dispatch)

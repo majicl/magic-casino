@@ -1,7 +1,13 @@
   import { bindActionCreators as reduxBindActionCreators } from 'redux'
   import typeToReducer from 'type-to-reducer'
   
-  export const createActionTypeMap = (prefix, actionTypeArray) => {
+  export /**
+   * combile action type name to the more uniqe name
+   * @param {any} prefix 
+   * @param {any} actionTypeArray 
+   * @returns 
+   */
+  const createActionTypeMap = (prefix, actionTypeArray) => {
     const actionTypeMap = {}
     for (const actionType of actionTypeArray) {
       actionTypeMap[actionType] = `${prefix}_${actionType}`
@@ -29,6 +35,7 @@
     return allActions
   }
   
+  // hnadle reducer action types due to creating nested objects
   export const handleActions = (initialState, reducerMap) => {
     const createRejectionReducer = (subReducer) => (state, action) => {
       try {

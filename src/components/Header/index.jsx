@@ -1,4 +1,10 @@
 import React, { Component } from 'react'
+
+/**
+ * Header of pages
+ * @class Header
+ * @extends {Component}
+ */
 class Header extends Component {
     render() {
         return (

@@ -2,11 +2,13 @@ import { handleActions } from '../utils'
 import categoryAction  from '../actions/category/categoryActionType'
 const { GETLIST } = categoryAction
 
+// initiate stete of category
 const INITIAL_STATE = {
     categories: [],
     loading: false
 }
 
+//reducer for category actions
 const reducers = {
     [GETLIST]: {
         PENDING: (state, action) => {

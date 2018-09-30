@@ -3,8 +3,13 @@ import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import { categoryAction, gameAction } from '../../actions'
 
+/**
+ * React component to handle categoriy list menu
+ * 
+ * @class CategoryList
+ * @extends {Component}
+ */
 class CategoryList extends Component {
-
     state = {
         categories: []
     }

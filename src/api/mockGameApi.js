@@ -4,6 +4,10 @@ import delay from './delay'
 // It uses setTimeout to simulate the delay of an AJAX call.
 
 // All calls return promises.
+/**
+ * GameApi Class for handling game APIs
+ * @class GameApi
+ */
 class GameApi {
     static getAllGameCategories() {
         return new Promise((resolve, reject) => {

@@ -9,6 +9,11 @@ const LoaderContainer = styled.div`
     line-height: 36px
 `
 
+/**
+ * A component to show login/logout status of the user
+ * @class UserCard
+ * @extends {Component}
+ */
 class UserCard extends Component {
 
     onLogoutHandler = (e) => {

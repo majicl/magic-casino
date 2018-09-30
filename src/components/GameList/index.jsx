@@ -4,6 +4,11 @@ import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import { gameAction } from '../../actions'
 
+/**
+ * game list component
+ * @class GameList
+ * @extends {Component}
+ */
 class GameList extends Component {
 
     state = {

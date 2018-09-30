@@ -1,0 +1,1753 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/actions/account/accountAction.js",
+    "content": "import api from '../../api/mockAccountApi'\nimport accountActions from './accountActionType'\nconst { LOGIN, LOGOUT } = accountActions\n\nexport /**\n * an action for loging in \n * @param {any} user \n * @returns \n */\nconst login = (user) => {\n    return {\n        type: LOGIN,\n        payload: api.login(user)\n    }\n}\n\nexport /**\n * an action for loging out\n * @param {object} user \n * @returns \n */\nconst logout = (user) => {\n    return {\n        type: LOGOUT,\n        payload: api.logout(user)\n    }\n}\n",
+    "static": true,
+    "longname": "/Users/majidparvin/Source/github/comeon-javascript-test/src/actions/account/accountAction.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "variable",
+    "name": "LOGIN",
+    "memberof": "src/actions/account/accountAction.js",
+    "static": true,
+    "longname": "src/actions/account/accountAction.js~LOGIN",
+    "access": "public",
+    "export": false,
+    "importPath": "comeon-javascript-test/src/actions/account/accountAction.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 50,
+    "kind": "function",
+    "name": "login",
+    "memberof": "src/actions/account/accountAction.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/actions/account/accountAction.js~login",
+    "access": "public",
+    "export": true,
+    "importPath": "comeon-javascript-test/src/actions/account/accountAction.js",
+    "importStyle": "{login}",
+    "description": "an action for loging in ",
+    "lineNumber": 10,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": ""
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "user",
+        "description": ""
+      }
+    ],
+    "return": {
+      "types": [
+        "{\"type\": *, \"payload\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 51,
+    "kind": "function",
+    "name": "logout",
+    "memberof": "src/actions/account/accountAction.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/actions/account/accountAction.js~logout",
+    "access": "public",
+    "export": true,
+    "importPath": "comeon-javascript-test/src/actions/account/accountAction.js",
+    "importStyle": "{logout}",
+    "description": "an action for loging out",
+    "lineNumber": 22,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": ""
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "user",
+        "description": ""
+      }
+    ],
+    "return": {
+      "types": [
+        "{\"type\": *, \"payload\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "file",
+    "name": "src/actions/account/accountActionType.js",
+    "content": "import { createActionTypeMap } from '../../utils'\nimport defaultActionTypes from '../defaultActionTypes'\n\n// creatring specefic names for Account actions\nexport default createActionTypeMap(\"ACCOUNT\", [\n    ...defaultActionTypes,\n    \"LOGIN\",\n    \"LOGOUT\"\n])\n",
+    "static": true,
+    "longname": "/Users/majidparvin/Source/github/comeon-javascript-test/src/actions/account/accountActionType.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 53,
+    "kind": "file",
+    "name": "src/actions/category/categoryAction.js",
+    "content": "import api from '../../api/mockGameApi'\nimport categoryActions from './categoryActionType'\nconst { GETLIST } = categoryActions\n\nexport /**\n * an action to ftech all categories from API\n * @returns \n */\nconst getGameCategories = () => {\n    return {\n        type: GETLIST,\n        payload: api.getAllGameCategories()\n    }\n}\n",
+    "static": true,
+    "longname": "/Users/majidparvin/Source/github/comeon-javascript-test/src/actions/category/categoryAction.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 54,
+    "kind": "variable",
+    "name": "GETLIST",
+    "memberof": "src/actions/category/categoryAction.js",
+    "static": true,
+    "longname": "src/actions/category/categoryAction.js~GETLIST",
+    "access": "public",
+    "export": false,
+    "importPath": "comeon-javascript-test/src/actions/category/categoryAction.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 55,
+    "kind": "function",
+    "name": "getGameCategories",
+    "memberof": "src/actions/category/categoryAction.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/actions/category/categoryAction.js~getGameCategories",
+    "access": "public",
+    "export": true,
+    "importPath": "comeon-javascript-test/src/actions/category/categoryAction.js",
+    "importStyle": "{getGameCategories}",
+    "description": "an action to ftech all categories from API",
+    "lineNumber": 9,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": ""
+      }
+    ],
+    "params": [],
+    "return": {
+      "types": [
+        "{\"type\": *, \"payload\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 56,
+    "kind": "file",
+    "name": "src/actions/category/categoryActionType.js",
+    "content": "import { createActionTypeMap } from '../../utils'\nimport defaultActionTypes from '../defaultActionTypes'\n\n// creatring specefic names for Category actions\nexport default createActionTypeMap(\"CATEGORY\", [\n    ...defaultActionTypes\n])\n",
+    "static": true,
+    "longname": "/Users/majidparvin/Source/github/comeon-javascript-test/src/actions/category/categoryActionType.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 57,
+    "kind": "file",
+    "name": "src/actions/defaultActionTypes.js",
+    "content": "export default [\"GETLIST\", \"GETONE\"]\n",
+    "static": true,
+    "longname": "/Users/majidparvin/Source/github/comeon-javascript-test/src/actions/defaultActionTypes.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 58,
+    "kind": "file",
+    "name": "src/actions/game/gameAction.js",
+    "content": "import api from '../../api/mockGameApi'\nimport gameActions from './gameActionType'\nconst { SEARCH, SEARCHBYKEYWORD, SEARCHBYCATEGORY } = gameActions\n\nexport /**\n * \n * \n * @param {any} keyword \n * @param {any} categoryIds \n * @returns \n */\nconst searchGames = (keyword, categoryIds) => {\n    return {\n        type: SEARCH,\n        payload: api.getAllGames(keyword, categoryIds)\n    }\n}\n\nexport const searchByKeyword = (keyword) => {\n    return (dispatch, getState) => {\n        const state = getState()\n        const { categoryIds } = state.game.searchOption\n        dispatch({\n            type: SEARCHBYKEYWORD,\n            keyword: keyword\n        })\n        dispatch(searchGames(keyword, categoryIds))\n    }\n}\n\nexport const searchByCategories = (categoryIds) => {\n    return (dispatch, getState) => {\n        const state = getState()\n        const { keyword } = state.game.searchOption\n        dispatch({\n            type: SEARCHBYCATEGORY,\n            categoryIds: categoryIds\n        })\n        dispatch(searchGames(keyword, categoryIds))\n    }\n}\n",
+    "static": true,
+    "longname": "/Users/majidparvin/Source/github/comeon-javascript-test/src/actions/game/gameAction.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 59,
+    "kind": "variable",
+    "name": "SEARCH",
+    "memberof": "src/actions/game/gameAction.js",
+    "static": true,
+    "longname": "src/actions/game/gameAction.js~SEARCH",
+    "access": "public",
+    "export": false,
+    "importPath": "comeon-javascript-test/src/actions/game/gameAction.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 60,
+    "kind": "function",
+    "name": "searchGames",
+    "memberof": "src/actions/game/gameAction.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/actions/game/gameAction.js~searchGames",
+    "access": "public",
+    "export": true,
+    "importPath": "comeon-javascript-test/src/actions/game/gameAction.js",
+    "importStyle": "{searchGames}",
+    "description": "",
+    "lineNumber": 12,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": ""
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "keyword",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "categoryIds",
+        "description": ""
+      }
+    ],
+    "return": {
+      "types": [
+        "{\"type\": *, \"payload\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 61,
+    "kind": "function",
+    "name": "searchByKeyword",
+    "memberof": "src/actions/game/gameAction.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/actions/game/gameAction.js~searchByKeyword",
+    "access": "public",
+    "export": true,
+    "importPath": "comeon-javascript-test/src/actions/game/gameAction.js",
+    "importStyle": "{searchByKeyword}",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "params": [
+      {
+        "name": "keyword",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 62,
+    "kind": "function",
+    "name": "searchByCategories",
+    "memberof": "src/actions/game/gameAction.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/actions/game/gameAction.js~searchByCategories",
+    "access": "public",
+    "export": true,
+    "importPath": "comeon-javascript-test/src/actions/game/gameAction.js",
+    "importStyle": "{searchByCategories}",
+    "description": null,
+    "lineNumber": 31,
+    "undocument": true,
+    "params": [
+      {
+        "name": "categoryIds",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 63,
+    "kind": "file",
+    "name": "src/actions/game/gameActionType.js",
+    "content": "import { createActionTypeMap } from '../../utils'\nimport defaultActionTypes from '../defaultActionTypes'\n\n// creatring specefic names for Game actions\nexport default createActionTypeMap(\"GAME\", [\n    ...defaultActionTypes,\n    \"SEARCH\",\n    \"SEARCHBYKEYWORD\",\n    \"SEARCHBYCATEGORY\"\n])\n",
+    "static": true,
+    "longname": "/Users/majidparvin/Source/github/comeon-javascript-test/src/actions/game/gameActionType.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 64,
+    "kind": "file",
+    "name": "src/actions/index.js",
+    "content": "import * as gameAction from './game/gameAction'\nimport * as categoryAction from './category/categoryAction'\nimport * as accountAction from './account/accountAction'\n\nexport {\n    gameAction,\n    categoryAction,\n    accountAction\n}\n",
+    "static": true,
+    "longname": "/Users/majidparvin/Source/github/comeon-javascript-test/src/actions/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 65,
+    "kind": "file",
+    "name": "src/api/apiUrl.js",
+    "content": "export const apiBaseUrl = '/'\n\nexport const game = {\n    categories: apiBaseUrl + 'categories',\n    games: apiBaseUrl + 'games'\n} \n\nexport const account = {\n    login: apiBaseUrl + 'login',\n    logout: apiBaseUrl + 'logout'\n} \n",
+    "static": true,
+    "longname": "/Users/majidparvin/Source/github/comeon-javascript-test/src/api/apiUrl.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 66,
+    "kind": "variable",
+    "name": "apiBaseUrl",
+    "memberof": "src/api/apiUrl.js",
+    "static": true,
+    "longname": "src/api/apiUrl.js~apiBaseUrl",
+    "access": "public",
+    "export": true,
+    "importPath": "comeon-javascript-test/src/api/apiUrl.js",
+    "importStyle": "{apiBaseUrl}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 67,
+    "kind": "variable",
+    "name": "game",
+    "memberof": "src/api/apiUrl.js",
+    "static": true,
+    "longname": "src/api/apiUrl.js~game",
+    "access": "public",
+    "export": true,
+    "importPath": "comeon-javascript-test/src/api/apiUrl.js",
+    "importStyle": "{game}",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"categories\": *, \"games\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 68,
+    "kind": "variable",
+    "name": "account",
+    "memberof": "src/api/apiUrl.js",
+    "static": true,
+    "longname": "src/api/apiUrl.js~account",
+    "access": "public",
+    "export": true,
+    "importPath": "comeon-javascript-test/src/api/apiUrl.js",
+    "importStyle": "{account}",
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"login\": *, \"logout\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 69,
+    "kind": "file",
+    "name": "src/api/comeon/comeon.game-1.0.min.js",
+    "content": "const jQuery = require('jquery');\nwindow.comeon=function(e){\"use strict\";var t={starburst:{src:\"https://comeon-static-test.casinomodule.com/games/starburst_mobile_html/game/starburst_mobile_html.xhtml?server=https%3A%2F%2Fcomeon-game-test.casinomodule.com%2F&lang=sv&sessId=DEMO-41e133d5237c402-EUR&gameId=starburst_not_mobile_sw&operatorId=default&staticsharedurl=http%3A%2F%2Fstatic-shared.casinomodule.com%2Fgameclient_html%2Fdevicedetection%2Fcurrent\"},jackhammer:{src:\"https://comeon-static-test.casinomodule.com/games/jackhammer_mobile_html/game/jackhammer_mobile_html.xhtml?server=https%3A%2F%2Fcomeon-game-test.casinomodule.com%2F&lang=sv&sessId=DEMO-0b3a6e21685c42a-EUR&gameId=jackhammer_not_mobile_sw&operatorId=default&staticsharedurl=http%3A%2F%2Fstatic-shared.casinomodule.com%2Fgameclient_html%2Fdevicedetection%2Fcurrent\"},jackandbeanstalk:{src:\"https://comeon-static-test.casinomodule.com/games/jackandbeanstalk_mobile_html/game/jackandbeanstalk_mobile_html.xhtml?server=https%3A%2F%2Fcomeon-game.casinomodule.com%2F&lang=en&sessId=DEMO-756f72b48bc2493-EUR&gameId=jackandbeanstalk_not_mobile_sw&operatorId=default&staticsharedurl=http%3A%2F%2Fstatic-shared.casinomodule.com%2Fgameclient_html%2Fdevicedetection%2Fcurrent\"},deadoralive:{src:\"https://comeon-static-test.casinomodule.com/games/deadoralive_mobile_html/game/deadoralive_mobile_html.xhtml?server=https%3A%2F%2Fcomeon-game-test.casinomodule.com%2F&lang=sv&sessId=DEMO-979bbc939ea9412-EUR&gameId=deadoralive_not_mobile_sw&operatorId=default&staticsharedurl=http%3A%2F%2Fstatic-shared.casinomodule.com%2Fgameclient_html%2Fdevicedetection%2Fcurrent\"},twinspin:{src:\"https://comeon-static-test.casinomodule.com/games/twinspin_mobile_html/game/twinspin_mobile_html.xhtml?server=https%3A%2F%2Fcomeon-game.casinomodule.com%2F&lang=en&sessId=DEMO-c813546a446a412-EUR&gameId=twinspin_not_mobile_sw&operatorId=default&staticsharedurl=http%3A%2F%2Fstatic-shared.casinomodule.com%2Fgameclient_html%2Fdevicedetection%2Fcurrent\"}};return{game:{launch:function(a){e(\"#game-launch\").empty();var s=t[a].src;e(\"<iframe>\",{src:s,id:\"game\",frameborder:0,scrolling:\"no\",width:640,height:480}).appendTo(\"#game-launch\")}}}}(jQuery);\n",
+    "static": true,
+    "longname": "/Users/majidparvin/Source/github/comeon-javascript-test/src/api/comeon/comeon.game-1.0.min.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 70,
+    "kind": "variable",
+    "name": "jQuery",
+    "memberof": "src/api/comeon/comeon.game-1.0.min.js",
+    "static": true,
+    "longname": "src/api/comeon/comeon.game-1.0.min.js~jQuery",
+    "access": "public",
+    "export": false,
+    "importPath": "comeon-javascript-test/src/api/comeon/comeon.game-1.0.min.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 71,
+    "kind": "file",
+    "name": "src/api/delay.js",
+    "content": "export default 200\n",
+    "static": true,
+    "longname": "/Users/majidparvin/Source/github/comeon-javascript-test/src/api/delay.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 72,
+    "kind": "file",
+    "name": "src/api/mock/mock-api.js",
+    "content": "const jQuery = require('jquery');\nconst mockjax = require('jquery-mockjax')(jQuery, window);\n\nlet players = {\n    rebecka: {\n        name: 'Rebecka Awesome',\n        avatar: 'images/avatar/rebecka.jpg',\n        event: 'Last seen gambling on Starburst.',\n        password: 'secret'\n    },\n    eric: {\n        name: 'Eric Beard',\n        avatar: 'images/avatar/eric.jpg',\n        event: 'I saw you won 500 SEK last time!',\n        password: 'dad'\n\n    },\n    stoffe: {\n        name: 'Stoffe Rocker',\n        avatar: 'images/avatar/stoffe.jpg',\n        event: 'Your are a rock star',\n        password: 'rock'\n    }\n},\n    games = [\n        {\n            name: 'Starburst',\n            description: 'Starburst is a high paced slot with some nice new features including a Starburst Wild feature. It has 5-reels and 10-bet lines and Traditional Wilds are replaced with an innovative new Starburst Wild which appear on reels 2, 3 or 4 and expand over the entire reel and remain in place for up to 3 re-spins giving you a much better chance of hitting a HUGE win!',\n            code: 'starburst',\n            icon: 'images/game-icon/starburst.jpg',\n            categoryIds: [0, 2]\n        },\n        {\n            name: 'Jack Hammer',\n            description: 'Jack Hammer is a 25-line, 3-row video slot using 15 independent reels set in the gritty, glamorous underworld of a crime fighting private eye.The game features Sticky Wins, Free Spins and Wild Substitutions.',\n            code: 'jackhammer',\n            icon: 'images/game-icon/jackhammer.jpg',\n            categoryIds: [0, 1]\n        },\n        {\n            name: 'Jack and the Beanstalk',\n            description: 'We is proud to present Jack and the Beanstalk. This game has a new feature called walking wilds which you will find in the main gameplay of this amazing game When a wild symbol is placed on the reels it will travel one reel at a time unti it leaves the left most reel, hence the name walking wilds! There are also in game free spins, where the main feature is to collect keys to unlock the different wild functionalities.',\n            code: 'jackandbeanstalk',\n            icon: 'images/game-icon/jackandbeanstalk.jpg',\n            categoryIds: [0, 2, 1]\n        },\n        {\n            name: 'Dead or Alive',\n            description: 'The Elements slot has an Avalanche meter which increases by one for each successive fall until it reaches the maximum of 4. After 4 successive Avalanches one of the 4 Free Falls Storm modes is triggered. These are the Fire Storm mode, Air Storm mode, Earth Storm mode, and Water Storm mode. The colours of the Avalanche meter match the leading element in the current game round.',\n            code: 'deadoralive',\n            icon: 'images/game-icon/deadoralive.jpg',\n            categoryIds: [0, 2]\n        },\n        {\n            name: 'Twin Spin',\n            description: 'The Twin Spin video slot has a Las Vegas theme brought into the 21st Century! Each spin starts with identical, adjacent twin reels that are linked together. During the spin the twin reels can expand to become triplet, quadruplet or even quintuplet reels. The unique reel synchronising and linking feature that appears on every single spin and the 243 ways to win makes for massive payouts!',\n            code: 'twinspin',\n            icon: 'images/game-icon/twinspin.jpg',\n            categoryIds: [0, 1]\n        }\n\n    ],\n    categories = [\n        {\n            id: 0,\n            name: 'ALL'\n        },\n        {\n            id: 1,\n            name: 'VIDEO SLOTS'\n        },\n        {\n            id: 2,\n            name: 'SLOT MACHINES'\n        }\n    ];\n\nmockjax({\n    url: '/login',\n    contentType: 'application/json',\n    response: function (settings) {\n        var username = settings.data.username,\n            password = settings.data.password;\n\n        if (username in players && players[username].password === password) {\n            this.responseText = {\n                status: 'success',\n                player: players[username]\n            };\n        } else {\n            this.responseText = {\n                status: 'fail',\n                error: 'player does not exist or wrong password'\n            };\n        }\n    }\n});\n\nmockjax({\n    url: '/games',\n    contentType: 'application/json',\n    responseText: games\n});\n\nmockjax({\n    url: '/categories',\n    contentType: 'application/json',\n    responseText: categories\n});\n\nmockjax({\n    url: '/logout',\n    contentType: 'application/json',\n    response: function (settings) {\n        var username = settings.data.username;\n        if (username in players) {\n            this.responseText = {\n                status: 'success'\n            };\n        } else {\n            this.responseText = {\n                status: 'fail',\n                error: 'Username do not match!'\n            };\n        }\n    }\n});\n",
+    "static": true,
+    "longname": "/Users/majidparvin/Source/github/comeon-javascript-test/src/api/mock/mock-api.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 73,
+    "kind": "variable",
+    "name": "jQuery",
+    "memberof": "src/api/mock/mock-api.js",
+    "static": true,
+    "longname": "src/api/mock/mock-api.js~jQuery",
+    "access": "public",
+    "export": false,
+    "importPath": "comeon-javascript-test/src/api/mock/mock-api.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 74,
+    "kind": "variable",
+    "name": "mockjax",
+    "memberof": "src/api/mock/mock-api.js",
+    "static": true,
+    "longname": "src/api/mock/mock-api.js~mockjax",
+    "access": "public",
+    "export": false,
+    "importPath": "comeon-javascript-test/src/api/mock/mock-api.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 75,
+    "kind": "variable",
+    "name": "players",
+    "memberof": "src/api/mock/mock-api.js",
+    "static": true,
+    "longname": "src/api/mock/mock-api.js~players",
+    "access": "public",
+    "export": false,
+    "importPath": "comeon-javascript-test/src/api/mock/mock-api.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"rebecka\": *, \"eric\": *, \"stoffe\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 76,
+    "kind": "file",
+    "name": "src/api/mockAccountApi.js",
+    "content": "import { account } from './apiUrl'\nimport $ from 'jquery'\nimport delay from './delay'\n// It uses setTimeout to simulate the delay of an AJAX call.\n\n// All calls return promises.\n/**\n * Account Class for handling account APIs\n * @class AccountApi\n */\nclass AccountApi {\n    static login(user) {\n        return new Promise((resolve, reject) => {\n            setTimeout(() => {\n                $.post(account.login, user)\n                    .then((response) => {\n                        if (response.status === \"fail\") {\n                            reject(response.error)\n                        } else {\n                            delete response.player.password\n                            response.player.username = user.username\n                            resolve(response)\n                        }\n                    }).catch(reject)\n            }, delay)\n        })\n    }\n\n    static logout(user) {\n        return new Promise((resolve, reject) => {\n            setTimeout(() => {\n                $.post(account.logout, user)\n                    .then((response) => {\n                        if (response.status === \"fail\") {\n                            reject(response.error)\n                        } else {\n                            resolve(response)\n                        }\n                    }).catch(reject)\n            }, delay)\n        })\n    }\n}\n\nexport default AccountApi\n",
+    "static": true,
+    "longname": "/Users/majidparvin/Source/github/comeon-javascript-test/src/api/mockAccountApi.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 77,
+    "kind": "class",
+    "name": "AccountApi",
+    "memberof": "src/api/mockAccountApi.js",
+    "static": true,
+    "longname": "src/api/mockAccountApi.js~AccountApi",
+    "access": "public",
+    "export": true,
+    "importPath": "comeon-javascript-test/src/api/mockAccountApi.js",
+    "importStyle": "AccountApi",
+    "description": "Account Class for handling account APIs",
+    "lineNumber": 11,
+    "unknown": [
+      {
+        "tagName": "@class",
+        "tagValue": "AccountApi"
+      }
+    ],
+    "interface": false
+  },
+  {
+    "__docId__": 78,
+    "kind": "method",
+    "name": "login",
+    "memberof": "src/api/mockAccountApi.js~AccountApi",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/api/mockAccountApi.js~AccountApi.login",
+    "access": "public",
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "params": [
+      {
+        "name": "user",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 79,
+    "kind": "method",
+    "name": "logout",
+    "memberof": "src/api/mockAccountApi.js~AccountApi",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/api/mockAccountApi.js~AccountApi.logout",
+    "access": "public",
+    "description": null,
+    "lineNumber": 29,
+    "undocument": true,
+    "params": [
+      {
+        "name": "user",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 80,
+    "kind": "file",
+    "name": "src/api/mockGameApi.js",
+    "content": "import { game } from './apiUrl'\nimport $ from 'jquery'\nimport delay from './delay'\n// It uses setTimeout to simulate the delay of an AJAX call.\n\n// All calls return promises.\n/**\n * GameApi Class for handling game APIs\n * @class GameApi\n */\nclass GameApi {\n    static getAllGameCategories() {\n        return new Promise((resolve, reject) => {\n            setTimeout(() => {\n                $.get(game.categories)\n                    .then(resolve)\n                    .catch(reject)\n            }, delay)\n        })\n    }\n\n    static getAllGames(keyword, categoryIds = []) {\n        keyword = keyword && keyword.toLowerCase()\n        return new Promise((resolve, reject) => {\n            setTimeout(() => {\n                $.get(game.games)\n                    .then(games => {\n                        if (!keyword) {\n                            return games\n                        } else {\n                            return games.filter(game => {\n                                return game\n                                    .name\n                                    .toLowerCase()\n                                    .includes(keyword)\n                                    ||\n                                    game\n                                        .description\n                                        .toLowerCase()\n                                        .includes(keyword)\n                            })\n                        }\n                    })\n                    .then(games => {\n                        if (categoryIds.length === 0) {\n                            return games\n                        } else {\n                            return games\n                                .filter(game => {\n                                    return categoryIds\n                                        .filter(cId => {\n                                            return game.categoryIds.includes(cId)\n                                        }).length > 0\n                                })\n                        }\n                    }).then(resolve)\n                    .catch(reject)\n            }, delay)\n        })\n    }\n}\n\nexport default GameApi\n",
+    "static": true,
+    "longname": "/Users/majidparvin/Source/github/comeon-javascript-test/src/api/mockGameApi.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 81,
+    "kind": "class",
+    "name": "GameApi",
+    "memberof": "src/api/mockGameApi.js",
+    "static": true,
+    "longname": "src/api/mockGameApi.js~GameApi",
+    "access": "public",
+    "export": true,
+    "importPath": "comeon-javascript-test/src/api/mockGameApi.js",
+    "importStyle": "GameApi",
+    "description": "GameApi Class for handling game APIs",
+    "lineNumber": 11,
+    "unknown": [
+      {
+        "tagName": "@class",
+        "tagValue": "GameApi"
+      }
+    ],
+    "interface": false
+  },
+  {
+    "__docId__": 82,
+    "kind": "method",
+    "name": "getAllGameCategories",
+    "memberof": "src/api/mockGameApi.js~GameApi",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/api/mockGameApi.js~GameApi.getAllGameCategories",
+    "access": "public",
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 83,
+    "kind": "method",
+    "name": "getAllGames",
+    "memberof": "src/api/mockGameApi.js~GameApi",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/api/mockGameApi.js~GameApi.getAllGames",
+    "access": "public",
+    "description": null,
+    "lineNumber": 22,
+    "undocument": true,
+    "params": [
+      {
+        "name": "keyword",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "categoryIds",
+        "optional": true,
+        "types": [
+          "*[]"
+        ],
+        "defaultRaw": [],
+        "defaultValue": "[]"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 84,
+    "kind": "file",
+    "name": "src/components/index.js",
+    "content": "export { default as GameItem } from './GameItem'\nexport { default as SearchBox } from './SearchBox'\nexport { default as UserCard } from './UserCard'\nexport { default as CategoryList } from './CategoryList'\nexport { default as Header } from './Header'\nexport { default as GameList } from './GameList'\nexport { default as ActionButton } from './common/ActionButton'\nexport { default as TextInput } from './common/TextInput'\n",
+    "static": true,
+    "longname": "/Users/majidparvin/Source/github/comeon-javascript-test/src/components/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 85,
+    "kind": "file",
+    "name": "src/containers/index.js",
+    "content": "export { default as Login } from './Account/Login'\nexport * from './Game/Details'\nexport { default as Landing } from './Landing'\n",
+    "static": true,
+    "longname": "/Users/majidparvin/Source/github/comeon-javascript-test/src/containers/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 86,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "import React from 'react'\nimport { render } from 'react-dom'\nimport { Provider } from 'react-redux'\nimport Router from './router'\nimport './api/mock/mock-api' // initiate mock api\nimport configureStore from './store/configureStore'\nimport registerServiceWorker from './registerServiceWorker'\nconst store = configureStore()\n\nrender(\n    <Provider\n    store={store}\n    >\n        <Router />\n    </Provider>\n    , document.getElementById('root'))\nregisterServiceWorker()\n",
+    "static": true,
+    "longname": "/Users/majidparvin/Source/github/comeon-javascript-test/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 87,
+    "kind": "variable",
+    "name": "store",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~store",
+    "access": "public",
+    "export": false,
+    "importPath": "comeon-javascript-test/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 88,
+    "kind": "file",
+    "name": "src/reducers/index.js",
+    "content": "import { combineReducers } from \"redux\"\nimport game from './gameReducer'\nimport category from './categoryReducer'\nimport account from './accountReducer'\n\nexport default combineReducers({\n    game,\n    category,\n    account\n})\n",
+    "static": true,
+    "longname": "/Users/majidparvin/Source/github/comeon-javascript-test/src/reducers/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 89,
+    "kind": "file",
+    "name": "src/registerServiceWorker.js",
+    "content": "// In production, we register a service worker to serve assets from local cache.\n\n// This lets the app load faster on subsequent visits in production, and gives\n// it offline capabilities. However, it also means that developers (and users)\n// will only see deployed updates on the \"N+1\" visit to a page, since previously\n// cached resources are updated in the background.\n\n// To learn more about the benefits of this model, read https://goo.gl/KwvDNy.\n// This link also includes instructions on opting out of this behavior.\n\nconst isLocalhost = Boolean(\n  window.location.hostname === 'localhost' ||\n    // [::1] is the IPv6 localhost address.\n    window.location.hostname === '[::1]' ||\n    // 127.0.0.1/8 is considered localhost for IPv4.\n    window.location.hostname.match(\n      /^127(?:\\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/\n    )\n);\n\nexport default function register() {\n  if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {\n    // The URL constructor is available in all browsers that support SW.\n    const publicUrl = new URL(process.env.PUBLIC_URL, window.location);\n    if (publicUrl.origin !== window.location.origin) {\n      // Our service worker won't work if PUBLIC_URL is on a different origin\n      // from what our page is served on. This might happen if a CDN is used to\n      // serve assets; see https://github.com/facebookincubator/create-react-app/issues/2374\n      return;\n    }\n\n    window.addEventListener('load', () => {\n      const swUrl = `${process.env.PUBLIC_URL}/service-worker.js`;\n\n      if (isLocalhost) {\n        // This is running on localhost. Lets check if a service worker still exists or not.\n        checkValidServiceWorker(swUrl);\n\n        // Add some additional logging to localhost, pointing developers to the\n        // service worker/PWA documentation.\n        navigator.serviceWorker.ready.then(() => {\n          console.log(\n            'This web app is being served cache-first by a service ' +\n              'worker. To learn more, visit https://goo.gl/SC7cgQ'\n          );\n        });\n      } else {\n        // Is not local host. Just register service worker\n        registerValidSW(swUrl);\n      }\n    });\n  }\n}\n\nfunction registerValidSW(swUrl) {\n  navigator.serviceWorker\n    .register(swUrl)\n    .then(registration => {\n      registration.onupdatefound = () => {\n        const installingWorker = registration.installing;\n        installingWorker.onstatechange = () => {\n          if (installingWorker.state === 'installed') {\n            if (navigator.serviceWorker.controller) {\n              // At this point, the old content will have been purged and\n              // the fresh content will have been added to the cache.\n              // It's the perfect time to display a \"New content is\n              // available; please refresh.\" message in your web app.\n              console.log('New content is available; please refresh.');\n            } else {\n              // At this point, everything has been precached.\n              // It's the perfect time to display a\n              // \"Content is cached for offline use.\" message.\n              console.log('Content is cached for offline use.');\n            }\n          }\n        };\n      };\n    })\n    .catch(error => {\n      console.error('Error during service worker registration:', error);\n    });\n}\n\nfunction checkValidServiceWorker(swUrl) {\n  // Check if the service worker can be found. If it can't reload the page.\n  fetch(swUrl)\n    .then(response => {\n      // Ensure service worker exists, and that we really are getting a JS file.\n      if (\n        response.status === 404 ||\n        response.headers.get('content-type').indexOf('javascript') === -1\n      ) {\n        // No service worker found. Probably a different app. Reload the page.\n        navigator.serviceWorker.ready.then(registration => {\n          registration.unregister().then(() => {\n            window.location.reload();\n          });\n        });\n      } else {\n        // Service worker found. Proceed as normal.\n        registerValidSW(swUrl);\n      }\n    })\n    .catch(() => {\n      console.log(\n        'No internet connection found. App is running in offline mode.'\n      );\n    });\n}\n\nexport function unregister() {\n  if ('serviceWorker' in navigator) {\n    navigator.serviceWorker.ready.then(registration => {\n      registration.unregister();\n    });\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/majidparvin/Source/github/comeon-javascript-test/src/registerServiceWorker.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 90,
+    "kind": "variable",
+    "name": "isLocalhost",
+    "memberof": "src/registerServiceWorker.js",
+    "static": true,
+    "longname": "src/registerServiceWorker.js~isLocalhost",
+    "access": "public",
+    "export": false,
+    "importPath": "comeon-javascript-test/src/registerServiceWorker.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 91,
+    "kind": "function",
+    "name": "register",
+    "memberof": "src/registerServiceWorker.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/registerServiceWorker.js~register",
+    "access": "public",
+    "export": true,
+    "importPath": "comeon-javascript-test/src/registerServiceWorker.js",
+    "importStyle": "register",
+    "description": null,
+    "lineNumber": 21,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 92,
+    "kind": "function",
+    "name": "registerValidSW",
+    "memberof": "src/registerServiceWorker.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/registerServiceWorker.js~registerValidSW",
+    "access": "public",
+    "export": false,
+    "importPath": "comeon-javascript-test/src/registerServiceWorker.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 55,
+    "undocument": true,
+    "params": [
+      {
+        "name": "swUrl",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 93,
+    "kind": "function",
+    "name": "checkValidServiceWorker",
+    "memberof": "src/registerServiceWorker.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/registerServiceWorker.js~checkValidServiceWorker",
+    "access": "public",
+    "export": false,
+    "importPath": "comeon-javascript-test/src/registerServiceWorker.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 84,
+    "undocument": true,
+    "params": [
+      {
+        "name": "swUrl",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 94,
+    "kind": "function",
+    "name": "unregister",
+    "memberof": "src/registerServiceWorker.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/registerServiceWorker.js~unregister",
+    "access": "public",
+    "export": true,
+    "importPath": "comeon-javascript-test/src/registerServiceWorker.js",
+    "importStyle": "{unregister}",
+    "description": null,
+    "lineNumber": 111,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 95,
+    "kind": "file",
+    "name": "src/router.js",
+    "content": "import React from 'react'\nimport { Login, GameDetails, Landing } from './containers'\nimport { Route, Switch } from 'react-router' // react-router v4\nimport { ConnectedRouter } from 'connected-react-router'\nimport { createBrowserHistory } from 'history'\n\nconst history = createBrowserHistory()\n\n// router management\nexport default () => (\n    <ConnectedRouter history={history}>\n        <div>\n            <Switch>\n                <Route path=\"/game/g-:id/:title\" component={GameDetails} />\n                <Route path=\"/games\" exact component={Landing} />\n                <Route path=\"/\" exact component={Login} />\n            </Switch>\n        </div>\n    </ConnectedRouter>\n)\n",
+    "static": true,
+    "longname": "/Users/majidparvin/Source/github/comeon-javascript-test/src/router.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 96,
+    "kind": "variable",
+    "name": "history",
+    "memberof": "src/router.js",
+    "static": true,
+    "longname": "src/router.js~history",
+    "access": "public",
+    "export": false,
+    "importPath": "comeon-javascript-test/src/router.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 97,
+    "kind": "function",
+    "name": "router",
+    "memberof": "src/router.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/router.js~router",
+    "access": "public",
+    "export": true,
+    "importPath": "comeon-javascript-test/src/router.js",
+    "importStyle": "router",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 98,
+    "kind": "file",
+    "name": "src/store/configureStore.js",
+    "content": "import { createStore, applyMiddleware, compose } from 'redux'\nimport reduxImmutableStateInvarient from 'redux-immutable-state-invariant'\nimport promiseMiddleware from 'redux-promise-middleware'\nimport thunk from 'redux-thunk'\nimport { createBrowserHistory } from 'history'\nimport { routerMiddleware, connectRouter } from 'connected-react-router'\nimport reducers from '../reducers'\n\nconst history = createBrowserHistory()\n\n/**\n * Redux store configuration function\n * using thunk, promiseMiddleware as middlewares to deal with data\n * using routerMiddleware to manage route in Redux\n * @export\n * @param {any} initialState \n * @returns \n */\nexport default function config(initialState) {\n    return createStore(\n        connectRouter(history)(reducers),\n        initialState,\n        compose(\n            applyMiddleware(\n                thunk,\n                promiseMiddleware(),\n                reduxImmutableStateInvarient(),\n                routerMiddleware(history)\n            )\n        )\n    )\n}\n",
+    "static": true,
+    "longname": "/Users/majidparvin/Source/github/comeon-javascript-test/src/store/configureStore.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 99,
+    "kind": "variable",
+    "name": "history",
+    "memberof": "src/store/configureStore.js",
+    "static": true,
+    "longname": "src/store/configureStore.js~history",
+    "access": "public",
+    "export": false,
+    "importPath": "comeon-javascript-test/src/store/configureStore.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 100,
+    "kind": "function",
+    "name": "config",
+    "memberof": "src/store/configureStore.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/configureStore.js~config",
+    "access": "public",
+    "export": true,
+    "importPath": "comeon-javascript-test/src/store/configureStore.js",
+    "importStyle": "config",
+    "description": "Redux store configuration function\nusing thunk, promiseMiddleware as middlewares to deal with data\nusing routerMiddleware to manage route in Redux",
+    "lineNumber": 19,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": ""
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "initialState",
+        "description": ""
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 101,
+    "kind": "file",
+    "name": "src/utils.js",
+    "content": "  import { bindActionCreators as reduxBindActionCreators } from 'redux'\n  import typeToReducer from 'type-to-reducer'\n  \n  export /**\n   * combile action type name to the more uniqe name\n   * @param {any} prefix \n   * @param {any} actionTypeArray \n   * @returns \n   */\n  const createActionTypeMap = (prefix, actionTypeArray) => {\n    const actionTypeMap = {}\n    for (const actionType of actionTypeArray) {\n      actionTypeMap[actionType] = `${prefix}_${actionType}`\n    }\n    return actionTypeMap\n  }\n  export const bindActionCreators = (actionContainerMapArray, dispatch) => {\n    const allActions = {}\n  \n    if (!Array.isArray(actionContainerMapArray)) {\n      actionContainerMapArray = [actionContainerMapArray]\n    }\n  \n    for (const actionContainerMap of actionContainerMapArray) {\n      for (const actionContainerName in actionContainerMap) {\n        const actionContainer = actionContainerMap[actionContainerName]\n  \n        if (typeof allActions[actionContainerName] === 'undefined') {\n          allActions[actionContainerName] = reduxBindActionCreators(actionContainer, dispatch)\n        } else {\n          throw new Error(`Overlapping actions found: '${actionContainerName}'`)\n        }\n      }\n    }\n    return allActions\n  }\n  \n  // hnadle reducer action types due to creating nested objects\n  export const handleActions = (initialState, reducerMap) => {\n    const createRejectionReducer = (subReducer) => (state, action) => {\n      try {\n        return subReducer(state, action)\n      } catch (e) {\n        setTimeout(() => {\n          throw e\n        })\n      }\n    }\n  \n    const createFulfillingReducer = (subReducer) => (state, action) => {\n      try {\n        return subReducer(state, action)\n      } catch (e) {\n        setTimeout(() => {\n          throw e\n        })\n      }\n    }\n  \n    for (const key in reducerMap) {\n      const reducer = reducerMap[key]\n  \n      if (key === \"undefined\") {\n        throw new Error(\"action name can not be undefined\")\n      }\n  \n      if (typeof reducer === 'object') {\n        for (const subKey in reducer) {\n          const subReducer = reducer[subKey]\n  \n          if (subKey === 'FULFILLED') {\n            reducer[subKey] = createFulfillingReducer(subReducer)\n          } else if (subKey === 'REJECTED') {\n            reducer[subKey] = createRejectionReducer(subReducer)\n          }\n        }\n      }\n    }\n  \n    return typeToReducer(reducerMap, initialState)\n  }\n  ",
+    "static": true,
+    "longname": "/Users/majidparvin/Source/github/comeon-javascript-test/src/utils.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 102,
+    "kind": "function",
+    "name": "createActionTypeMap",
+    "memberof": "src/utils.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/utils.js~createActionTypeMap",
+    "access": "public",
+    "export": true,
+    "importPath": "comeon-javascript-test/src/utils.js",
+    "importStyle": "{createActionTypeMap}",
+    "description": "combile action type name to the more uniqe name",
+    "lineNumber": 10,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": ""
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "prefix",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "actionTypeArray",
+        "description": ""
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 103,
+    "kind": "function",
+    "name": "bindActionCreators",
+    "memberof": "src/utils.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/utils.js~bindActionCreators",
+    "access": "public",
+    "export": true,
+    "importPath": "comeon-javascript-test/src/utils.js",
+    "importStyle": "{bindActionCreators}",
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "params": [
+      {
+        "name": "actionContainerMapArray",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "dispatch",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 104,
+    "kind": "function",
+    "name": "handleActions",
+    "memberof": "src/utils.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/utils.js~handleActions",
+    "access": "public",
+    "export": true,
+    "importPath": "comeon-javascript-test/src/utils.js",
+    "importStyle": "{handleActions}",
+    "description": null,
+    "lineNumber": 39,
+    "undocument": true,
+    "params": [
+      {
+        "name": "initialState",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "reducerMap",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "kind": "index",
+    "content": "# Magic Casino\n\nApplicant's test for Javascript coders.\n\n## How to use\n\nYou can find more information [here](/docs).\n\n## Setup\n\n```\n$ npm install\n```\n\n### Running\n\n```\n$ npm start\n```\n\n## Build\n\n```\n$ npm run build\n```\n\n## Document\n\n```\n$ npm run doc\n```\n\n## Login Information\n\nWill give you player information.\nIt is possible to login with three accounts:\n\n```\nusername: rebecka\npassword: secret\n\nusername: eric\npassword: dad\n\nusername: stoffe\npassword: rock\n```\n",
+    "longname": "/Users/majidparvin/Source/github/comeon-javascript-test/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"comeon-javascript-test\",\n  \"version\": \"0.1.0\",\n  \"private\": true,\n  \"dependencies\": {\n    \"autoprefixer\": \"7.1.6\",\n    \"babel-core\": \"6.26.0\",\n    \"babel-eslint\": \"7.2.3\",\n    \"babel-jest\": \"20.0.3\",\n    \"babel-loader\": \"7.1.2\",\n    \"babel-preset-react-app\": \"^3.1.2\",\n    \"babel-runtime\": \"6.26.0\",\n    \"case-sensitive-paths-webpack-plugin\": \"2.1.1\",\n    \"chalk\": \"1.1.3\",\n    \"connected-react-router\": \"^4.5.0\",\n    \"css-loader\": \"0.28.7\",\n    \"dotenv\": \"4.0.0\",\n    \"dotenv-expand\": \"4.2.0\",\n    \"eslint\": \"4.10.0\",\n    \"eslint-config-react-app\": \"^2.1.0\",\n    \"eslint-loader\": \"1.9.0\",\n    \"eslint-plugin-flowtype\": \"2.39.1\",\n    \"eslint-plugin-import\": \"2.8.0\",\n    \"eslint-plugin-jsx-a11y\": \"5.1.1\",\n    \"eslint-plugin-react\": \"7.4.0\",\n    \"extract-text-webpack-plugin\": \"3.0.2\",\n    \"file-loader\": \"1.1.5\",\n    \"fs-extra\": \"3.0.1\",\n    \"gulp\": \"^3.9.1\",\n    \"gulp-clean\": \"^0.4.0\",\n    \"gulp-concat\": \"^2.6.1\",\n    \"gulp-csso\": \"^3.0.1\",\n    \"gulp-sourcemaps\": \"^2.6.4\",\n    \"gulp-watch\": \"^5.0.1\",\n    \"history\": \"^4.7.2\",\n    \"html-webpack-plugin\": \"2.29.0\",\n    \"jest\": \"20.0.4\",\n    \"jquery\": \"^3.3.1\",\n    \"jquery-mockjax\": \"^2.5.0\",\n    \"node-sass\": \"^4.9.3\",\n    \"object-assign\": \"4.1.1\",\n    \"postcss-flexbugs-fixes\": \"3.2.0\",\n    \"postcss-loader\": \"2.0.8\",\n    \"promise\": \"8.0.1\",\n    \"raf\": \"3.4.0\",\n    \"react\": \"^16.5.2\",\n    \"react-dev-utils\": \"^5.0.2\",\n    \"react-dom\": \"^16.5.2\",\n    \"react-redux\": \"^5.0.7\",\n    \"react-router\": \"^4.3.1\",\n    \"redux\": \"^4.0.0\",\n    \"redux-immutable-state-invariant\": \"^2.1.0\",\n    \"redux-promise-middleware\": \"^5.1.1\",\n    \"redux-thunk\": \"^2.3.0\",\n    \"resolve\": \"1.6.0\",\n    \"sass-loader\": \"^7.1.0\",\n    \"style-loader\": \"0.19.0\",\n    \"styled-components\": \"^3.4.9\",\n    \"sw-precache-webpack-plugin\": \"0.11.4\",\n    \"type-to-reducer\": \"^1.1.0\",\n    \"url-loader\": \"0.6.2\",\n    \"webpack\": \"3.8.1\",\n    \"webpack-dev-server\": \"2.11.3\",\n    \"webpack-manifest-plugin\": \"1.3.2\",\n    \"whatwg-fetch\": \"2.0.3\"\n  },\n  \"scripts\": {\n    \"start\": \"gulp && node scripts/start.js\",\n    \"build\": \"node scripts/build.js\",\n    \"doc\": \"esdoc -c esdoc.json\",\n    \"test\": \"node scripts/test.js --env=jsdom\"\n  },\n  \"jest\": {\n    \"collectCoverageFrom\": [\n      \"src/**/*.{js,jsx,mjs}\"\n    ],\n    \"setupFiles\": [\n      \"<rootDir>/config/polyfills.js\"\n    ],\n    \"testMatch\": [\n      \"<rootDir>/src/**/__tests__/**/*.{js,jsx,mjs}\",\n      \"<rootDir>/src/**/?(*.)(spec|test).{js,jsx,mjs}\"\n    ],\n    \"testEnvironment\": \"node\",\n    \"testURL\": \"http://localhost\",\n    \"transform\": {\n      \"^.+\\\\.(js|jsx|mjs)$\": \"<rootDir>/node_modules/babel-jest\",\n      \"^.+\\\\.css$\": \"<rootDir>/config/jest/cssTransform.js\",\n      \"^(?!.*\\\\.(js|jsx|mjs|css|json)$)\": \"<rootDir>/config/jest/fileTransform.js\"\n    },\n    \"transformIgnorePatterns\": [\n      \"[/\\\\\\\\]node_modules[/\\\\\\\\].+\\\\.(js|jsx|mjs)$\"\n    ],\n    \"moduleNameMapper\": {\n      \"^react-native$\": \"react-native-web\"\n    },\n    \"moduleFileExtensions\": [\n      \"web.js\",\n      \"js\",\n      \"json\",\n      \"web.jsx\",\n      \"jsx\",\n      \"node\",\n      \"mjs\"\n    ]\n  },\n  \"babel\": {\n    \"presets\": [\n      \"react-app\"\n    ]\n  },\n  \"eslintConfig\": {\n    \"extends\": \"react-app\"\n  },\n  \"devDependencies\": {\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-jsx-plugin\": \"^1.0.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\"\n  }\n}\n",
+    "longname": "/Users/majidparvin/Source/github/comeon-javascript-test/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]

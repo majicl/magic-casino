@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../../">
+  <title data-ice="title">src/api/mock/mock-api.js | comeon-javascript-test</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-register">register</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-unregister">unregister</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-router">router</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-bindActionCreators">bindActionCreators</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-createActionTypeMap">createActionTypeMap</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-handleActions">handleActions</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#actions-account">actions/account</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-login">login</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-logout">logout</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#actions-category">actions/category</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getGameCategories">getGameCategories</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#actions-game">actions/game</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-searchByCategories">searchByCategories</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-searchByKeyword">searchByKeyword</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-searchGames">searchGames</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#api">api</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/api/mockAccountApi.js~AccountApi.html">AccountApi</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/api/mockGameApi.js~GameApi.html">GameApi</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-account">account</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-apiBaseUrl">apiBaseUrl</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-game">game</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#store">store</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-config">config</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/api/mock/mock-api.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">const jQuery = require(&apos;jquery&apos;);
+const mockjax = require(&apos;jquery-mockjax&apos;)(jQuery, window);
+
+let players = {
+    rebecka: {
+        name: &apos;Rebecka Awesome&apos;,
+        avatar: &apos;images/avatar/rebecka.jpg&apos;,
+        event: &apos;Last seen gambling on Starburst.&apos;,
+        password: &apos;secret&apos;
+    },
+    eric: {
+        name: &apos;Eric Beard&apos;,
+        avatar: &apos;images/avatar/eric.jpg&apos;,
+        event: &apos;I saw you won 500 SEK last time!&apos;,
+        password: &apos;dad&apos;
+
+    },
+    stoffe: {
+        name: &apos;Stoffe Rocker&apos;,
+        avatar: &apos;images/avatar/stoffe.jpg&apos;,
+        event: &apos;Your are a rock star&apos;,
+        password: &apos;rock&apos;
+    }
+},
+    games = [
+        {
+            name: &apos;Starburst&apos;,
+            description: &apos;Starburst is a high paced slot with some nice new features including a Starburst Wild feature. It has 5-reels and 10-bet lines and Traditional Wilds are replaced with an innovative new Starburst Wild which appear on reels 2, 3 or 4 and expand over the entire reel and remain in place for up to 3 re-spins giving you a much better chance of hitting a HUGE win!&apos;,
+            code: &apos;starburst&apos;,
+            icon: &apos;images/game-icon/starburst.jpg&apos;,
+            categoryIds: [0, 2]
+        },
+        {
+            name: &apos;Jack Hammer&apos;,
+            description: &apos;Jack Hammer is a 25-line, 3-row video slot using 15 independent reels set in the gritty, glamorous underworld of a crime fighting private eye.The game features Sticky Wins, Free Spins and Wild Substitutions.&apos;,
+            code: &apos;jackhammer&apos;,
+            icon: &apos;images/game-icon/jackhammer.jpg&apos;,
+            categoryIds: [0, 1]
+        },
+        {
+            name: &apos;Jack and the Beanstalk&apos;,
+            description: &apos;We is proud to present Jack and the Beanstalk. This game has a new feature called walking wilds which you will find in the main gameplay of this amazing game When a wild symbol is placed on the reels it will travel one reel at a time unti it leaves the left most reel, hence the name walking wilds! There are also in game free spins, where the main feature is to collect keys to unlock the different wild functionalities.&apos;,
+            code: &apos;jackandbeanstalk&apos;,
+            icon: &apos;images/game-icon/jackandbeanstalk.jpg&apos;,
+            categoryIds: [0, 2, 1]
+        },
+        {
+            name: &apos;Dead or Alive&apos;,
+            description: &apos;The Elements slot has an Avalanche meter which increases by one for each successive fall until it reaches the maximum of 4. After 4 successive Avalanches one of the 4 Free Falls Storm modes is triggered. These are the Fire Storm mode, Air Storm mode, Earth Storm mode, and Water Storm mode. The colours of the Avalanche meter match the leading element in the current game round.&apos;,
+            code: &apos;deadoralive&apos;,
+            icon: &apos;images/game-icon/deadoralive.jpg&apos;,
+            categoryIds: [0, 2]
+        },
+        {
+            name: &apos;Twin Spin&apos;,
+            description: &apos;The Twin Spin video slot has a Las Vegas theme brought into the 21st Century! Each spin starts with identical, adjacent twin reels that are linked together. During the spin the twin reels can expand to become triplet, quadruplet or even quintuplet reels. The unique reel synchronising and linking feature that appears on every single spin and the 243 ways to win makes for massive payouts!&apos;,
+            code: &apos;twinspin&apos;,
+            icon: &apos;images/game-icon/twinspin.jpg&apos;,
+            categoryIds: [0, 1]
+        }
+
+    ],
+    categories = [
+        {
+            id: 0,
+            name: &apos;ALL&apos;
+        },
+        {
+            id: 1,
+            name: &apos;VIDEO SLOTS&apos;
+        },
+        {
+            id: 2,
+            name: &apos;SLOT MACHINES&apos;
+        }
+    ];
+
+mockjax({
+    url: &apos;/login&apos;,
+    contentType: &apos;application/json&apos;,
+    response: function (settings) {
+        var username = settings.data.username,
+            password = settings.data.password;
+
+        if (username in players &amp;&amp; players[username].password === password) {
+            this.responseText = {
+                status: &apos;success&apos;,
+                player: players[username]
+            };
+        } else {
+            this.responseText = {
+                status: &apos;fail&apos;,
+                error: &apos;player does not exist or wrong password&apos;
+            };
+        }
+    }
+});
+
+mockjax({
+    url: &apos;/games&apos;,
+    contentType: &apos;application/json&apos;,
+    responseText: games
+});
+
+mockjax({
+    url: &apos;/categories&apos;,
+    contentType: &apos;application/json&apos;,
+    responseText: categories
+});
+
+mockjax({
+    url: &apos;/logout&apos;,
+    contentType: &apos;application/json&apos;,
+    response: function (settings) {
+        var username = settings.data.username;
+        if (username in players) {
+            this.responseText = {
+                status: &apos;success&apos;
+            };
+        } else {
+            this.responseText = {
+                status: &apos;fail&apos;,
+                error: &apos;Username do not match!&apos;
+            };
+        }
+    }
+});
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

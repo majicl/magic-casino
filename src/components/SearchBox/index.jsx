@@ -3,6 +3,11 @@ import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import { gameAction } from '../../actions'
 
+/**
+ * A search box to handle searching games
+ * @class SearchBox
+ * @extends {Component}
+ */
 class SearchBox extends Component {
 
     isLoading = (searching) => {

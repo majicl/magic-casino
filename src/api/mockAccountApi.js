@@ -4,6 +4,10 @@ import delay from './delay'
 // It uses setTimeout to simulate the delay of an AJAX call.
 
 // All calls return promises.
+/**
+ * Account Class for handling account APIs
+ * @class AccountApi
+ */
 class AccountApi {
     static login(user) {
         return new Promise((resolve, reject) => {

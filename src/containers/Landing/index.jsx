@@ -7,6 +7,16 @@ import {
     SearchBox
 } from '../../components'
 
+/**
+ * the container component to show games and filter ot search on it
+ * this container manage: GameList,
+    CategoryList,
+    Header,
+    UserCard,
+    SearchBox components 
+ * @class Landing
+ * @extends {Component}
+ */
 class Landing extends Component {
     render() {
         return (

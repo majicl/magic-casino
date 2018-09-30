@@ -8,6 +8,14 @@ import reducers from '../reducers'
 
 const history = createBrowserHistory()
 
+/**
+ * Redux store configuration function
+ * using thunk, promiseMiddleware as middlewares to deal with data
+ * using routerMiddleware to manage route in Redux
+ * @export
+ * @param {any} initialState 
+ * @returns 
+ */
 export default function config(initialState) {
     return createStore(
         connectRouter(history)(reducers),

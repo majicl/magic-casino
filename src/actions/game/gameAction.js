@@ -2,7 +2,14 @@ import api from '../../api/mockGameApi'
 import gameActions from './gameActionType'
 const { SEARCH, SEARCHBYKEYWORD, SEARCHBYCATEGORY } = gameActions
 
-export const searchGames = (keyword, categoryIds) => {
+export /**
+ * 
+ * 
+ * @param {any} keyword 
+ * @param {any} categoryIds 
+ * @returns 
+ */
+const searchGames = (keyword, categoryIds) => {
     return {
         type: SEARCH,
         payload: api.getAllGames(keyword, categoryIds)

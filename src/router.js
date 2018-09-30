@@ -6,6 +6,7 @@ import { createBrowserHistory } from 'history'
 
 const history = createBrowserHistory()
 
+// router management
 export default () => (
     <ConnectedRouter history={history}>
         <div>

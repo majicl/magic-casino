@@ -2,11 +2,13 @@ import { handleActions } from '../utils'
 import accountAction  from '../actions/account/accountActionType'
 const { LOGIN, LOGOUT } = accountAction
 
+// initiate stete of account
 const INITIAL_STATE = {
     user: undefined,
     loginLoading: false
 }
 
+//reducer for account actions
 const reducers = {
     [LOGIN]: {
         PENDING: (state, action) => {

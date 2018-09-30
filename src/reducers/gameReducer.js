@@ -2,6 +2,7 @@ import { handleActions } from '../utils'
 import gameActions from '../actions/game/gameActionType'
 const { GETLIST, SEARCH, SEARCHBYKEYWORD, SEARCHBYCATEGORY } = gameActions
 
+// initiate stete of game
 const INITIAL_STATE = {
     games: [],
     categories: [],
@@ -12,6 +13,7 @@ const INITIAL_STATE = {
     loading: false
 }
 
+//reducer for game actions
 const reducers = {
     [SEARCHBYKEYWORD]: (state, action) => {
         return {
