@@ -48,6 +48,7 @@
     "react-dom": "^16.5.2",
     "react-redux": "^5.0.7",
     "react-router": "^4.3.1",
+    "react-test-renderer": "^16.5.2",
     "redux": "^4.0.0",
     "redux-immutable-state-invariant": "^2.1.0",
     "redux-promise-middleware": "^5.1.1",
@@ -113,6 +114,8 @@
     "extends": "react-app"
   },
   "devDependencies": {
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.5.0",
     "esdoc": "^1.1.0",
     "esdoc-jsx-plugin": "^1.0.0",
     "esdoc-standard-plugin": "^1.0.0"
